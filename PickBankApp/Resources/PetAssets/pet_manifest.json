@@ -1,0 +1,1656 @@
+{
+  "version": 2,
+  "species": {
+    "cat": {
+      "authoredCanvas": [
+        720,
+        1280
+      ],
+      "dayRoom": "cat_day.heic",
+      "nightRoom": "cat_night.heic",
+      "slots": [
+        {
+          "id": "sofa_sleep",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.28,
+            0.42
+          ],
+          "size": 0.29,
+          "frames": [
+            "pet_stage_young_cat_sofa_sleep_00.png",
+            "pet_stage_young_cat_sofa_sleep_01.png",
+            "pet_stage_young_cat_sofa_sleep_02.png",
+            "pet_stage_young_cat_sofa_sleep_03.png",
+            "pet_stage_young_cat_sofa_sleep_04.png",
+            "pet_stage_young_cat_sofa_sleep_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            2,
+            2,
+            4,
+            2,
+            2,
+            5,
+            2
+          ],
+          "frameDurationsMs": [
+            10000,
+            9000,
+            10000,
+            11000,
+            12000,
+            12000,
+            10000,
+            12000,
+            11000,
+            9000,
+            12000,
+            11000,
+            8000,
+            12000
+          ],
+          "representative": 2
+        },
+        {
+          "id": "ball_play",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.62,
+            0.51
+          ],
+          "size": 0.26,
+          "frames": [
+            "pet_stage_young_cat_ball_play_00.png",
+            "pet_stage_young_cat_ball_play_01.png",
+            "pet_stage_young_cat_ball_play_02.png",
+            "pet_stage_young_cat_ball_play_03.png",
+            "pet_stage_young_cat_ball_play_04.png",
+            "pet_stage_young_cat_ball_play_05.png"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            5,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            3500,
+            3000,
+            3000,
+            2500,
+            2500,
+            2200,
+            2500,
+            2800,
+            2400,
+            2600,
+            2800,
+            3200
+          ],
+          "representative": 4
+        },
+        {
+          "id": "cat_groom_sit",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.49,
+            0.65
+          ],
+          "size": 0.25,
+          "frames": [
+            "pet_stage_young_cat_cat_groom_sit_00.png",
+            "pet_stage_young_cat_cat_groom_sit_01.png",
+            "pet_stage_young_cat_cat_groom_sit_02.png",
+            "pet_stage_young_cat_cat_groom_sit_03.png",
+            "pet_stage_young_cat_cat_groom_sit_04.png",
+            "pet_stage_young_cat_cat_groom_sit_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            5000,
+            4000,
+            3500,
+            3500,
+            4500,
+            5500
+          ],
+          "representative": 0
+        },
+        {
+          "id": "cat_stretch_idle",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.66,
+            0.72
+          ],
+          "size": 0.26,
+          "frames": [
+            "pet_stage_young_cat_cat_stretch_idle_00.png",
+            "pet_stage_young_cat_cat_stretch_idle_01.png",
+            "pet_stage_young_cat_cat_stretch_idle_02.png",
+            "pet_stage_young_cat_cat_stretch_idle_03.png",
+            "pet_stage_young_cat_cat_stretch_idle_04.png",
+            "pet_stage_young_cat_cat_stretch_idle_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7000,
+            3500,
+            3000,
+            2500,
+            3500,
+            6500
+          ],
+          "representative": 0
+        },
+        {
+          "id": "window_watch",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.37,
+            0.31
+          ],
+          "size": 0.24,
+          "frames": [
+            "pet_stage_young_cat_window_watch_00.png",
+            "pet_stage_young_cat_window_watch_01.png",
+            "pet_stage_young_cat_window_watch_02.png",
+            "pet_stage_young_cat_window_watch_03.png",
+            "pet_stage_young_cat_window_watch_04.png",
+            "pet_stage_young_cat_window_watch_05.png"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            2,
+            4,
+            5,
+            5
+          ],
+          "frameDurationsMs": [
+            8000,
+            7000,
+            6000,
+            5500,
+            6500,
+            5000,
+            7000,
+            5500,
+            6000,
+            8000
+          ],
+          "representative": 2
+        }
+      ]
+    },
+    "dog": {
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "dog_day.heic",
+      "nightRoom": "dog_night.heic",
+      "slots": [
+        {
+          "id": "dog_porch_rest",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.79,
+            0.29
+          ],
+          "size": 0.22,
+          "frames": [
+            "pet_stage_young_dog_dog_porch_rest_00.png",
+            "pet_stage_young_dog_dog_porch_rest_01.png",
+            "pet_stage_young_dog_dog_porch_rest_02.png",
+            "pet_stage_young_dog_dog_porch_rest_03.png",
+            "pet_stage_young_dog_dog_porch_rest_04.png",
+            "pet_stage_young_dog_dog_porch_rest_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4,
+            5,
+            4
+          ],
+          "frameDurationsMs": [
+            9000,
+            10000,
+            11000,
+            12000,
+            11000,
+            9500,
+            8500,
+            10000,
+            9000,
+            10500
+          ],
+          "representative": 2
+        },
+        {
+          "id": "dog_tail_wag_sit",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.44,
+            0.52
+          ],
+          "size": 0.2,
+          "frames": [
+            "pet_stage_young_dog_dog_tail_wag_sit_00.png",
+            "pet_stage_young_dog_dog_tail_wag_sit_01.png",
+            "pet_stage_young_dog_dog_tail_wag_sit_02.png",
+            "pet_stage_young_dog_dog_tail_wag_sit_03.png",
+            "pet_stage_young_dog_dog_tail_wag_sit_04.png",
+            "pet_stage_young_dog_dog_tail_wag_sit_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            3200,
+            2500,
+            2200,
+            2400,
+            2800,
+            3500
+          ],
+          "representative": 0
+        },
+        {
+          "id": "dog_gate_watch",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.53,
+            0.84
+          ],
+          "size": 0.2,
+          "frames": [
+            "pet_stage_young_dog_dog_gate_watch_00.png",
+            "pet_stage_young_dog_dog_gate_watch_01.png",
+            "pet_stage_young_dog_dog_gate_watch_02.png",
+            "pet_stage_young_dog_dog_gate_watch_03.png",
+            "pet_stage_young_dog_dog_gate_watch_04.png",
+            "pet_stage_young_dog_dog_gate_watch_05.png"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4
+          ],
+          "frameDurationsMs": [
+            8000,
+            7000,
+            6000,
+            5500,
+            6500,
+            5000,
+            5500,
+            6500,
+            7500
+          ],
+          "representative": 2
+        },
+        {
+          "id": "dog_kennel_hide",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.18,
+            0.29
+          ],
+          "size": 0.2,
+          "frames": [
+            "pet_stage_young_dog_dog_kennel_hide_00.png",
+            "pet_stage_young_dog_dog_kennel_hide_01.png",
+            "pet_stage_young_dog_dog_kennel_hide_02.png",
+            "pet_stage_young_dog_dog_kennel_hide_03.png",
+            "pet_stage_young_dog_dog_kennel_hide_04.png",
+            "pet_stage_young_dog_dog_kennel_hide_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            10000,
+            11000,
+            12000,
+            11000,
+            12000,
+            9500,
+            8500,
+            9000,
+            10500
+          ],
+          "representative": 2
+        }
+      ]
+    },
+    "lamb": {
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "lamb_day.heic",
+      "nightRoom": "lamb_night.heic",
+      "slots": [
+        {
+          "id": "lamb_cud_chew_idle",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.48,
+            0.58
+          ],
+          "size": 0.22,
+          "frames": [
+            "pet_stage_young_lamb_lamb_cud_chew_idle_00.png",
+            "pet_stage_young_lamb_lamb_cud_chew_idle_01.png",
+            "pet_stage_young_lamb_lamb_cud_chew_idle_02.png",
+            "pet_stage_young_lamb_lamb_cud_chew_idle_03.png",
+            "pet_stage_young_lamb_lamb_cud_chew_idle_04.png",
+            "pet_stage_young_lamb_lamb_cud_chew_idle_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            6000,
+            4500,
+            4000,
+            4500,
+            5500,
+            6500
+          ],
+          "representative": 0
+        },
+        {
+          "id": "lamb_grass_graze",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.53,
+            0.49
+          ],
+          "size": 0.22,
+          "frames": [
+            "pet_stage_young_lamb_lamb_grass_graze_00.png",
+            "pet_stage_young_lamb_lamb_grass_graze_01.png",
+            "pet_stage_young_lamb_lamb_grass_graze_02.png",
+            "pet_stage_young_lamb_lamb_grass_graze_03.png",
+            "pet_stage_young_lamb_lamb_grass_graze_04.png",
+            "pet_stage_young_lamb_lamb_grass_graze_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            4500,
+            4000,
+            3500,
+            4000,
+            3500,
+            4000,
+            4500,
+            4000,
+            3500
+          ],
+          "representative": 2
+        },
+        {
+          "id": "lamb_wool_shake_idle",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.64,
+            0.66
+          ],
+          "size": 0.22,
+          "frames": [
+            "pet_stage_young_lamb_lamb_wool_shake_idle_00.png",
+            "pet_stage_young_lamb_lamb_wool_shake_idle_01.png",
+            "pet_stage_young_lamb_lamb_wool_shake_idle_02.png",
+            "pet_stage_young_lamb_lamb_wool_shake_idle_03.png",
+            "pet_stage_young_lamb_lamb_wool_shake_idle_04.png",
+            "pet_stage_young_lamb_lamb_wool_shake_idle_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            6000,
+            3000,
+            2200,
+            2400,
+            3500,
+            6500
+          ],
+          "representative": 0
+        },
+        {
+          "id": "lamb_tree_watch",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.22,
+            0.31
+          ],
+          "size": 0.21,
+          "frames": [
+            "pet_stage_young_lamb_lamb_tree_watch_00.png",
+            "pet_stage_young_lamb_lamb_tree_watch_01.png",
+            "pet_stage_young_lamb_lamb_tree_watch_02.png",
+            "pet_stage_young_lamb_lamb_tree_watch_03.png",
+            "pet_stage_young_lamb_lamb_tree_watch_04.png",
+            "pet_stage_young_lamb_lamb_tree_watch_05.png"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7500,
+            8000,
+            6000,
+            5500,
+            6500,
+            5000,
+            6000,
+            7500
+          ],
+          "representative": 2
+        },
+        {
+          "id": "lamb_meadow_play",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.49,
+            0.58
+          ],
+          "size": 0.22,
+          "frames": [
+            "pet_stage_young_lamb_lamb_meadow_play_00.png",
+            "pet_stage_young_lamb_lamb_meadow_play_01.png",
+            "pet_stage_young_lamb_lamb_meadow_play_02.png",
+            "pet_stage_young_lamb_lamb_meadow_play_03.png",
+            "pet_stage_young_lamb_lamb_meadow_play_04.png",
+            "pet_stage_young_lamb_lamb_meadow_play_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            3500,
+            3000,
+            2500,
+            2200,
+            2400,
+            2800,
+            3000,
+            3500
+          ],
+          "representative": 3
+        }
+      ]
+    },
+    "fish": {
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "fish_day.heic",
+      "nightRoom": "fish_night.heic",
+      "slots": [
+        {
+          "id": "fish_sand_rest",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.5,
+            0.7
+          ],
+          "size": 0.19,
+          "frames": [
+            "pet_stage_young_fish_fish_sand_rest_00.png",
+            "pet_stage_young_fish_fish_sand_rest_01.png",
+            "pet_stage_young_fish_fish_sand_rest_02.png",
+            "pet_stage_young_fish_fish_sand_rest_03.png",
+            "pet_stage_young_fish_fish_sand_rest_04.png",
+            "pet_stage_young_fish_fish_sand_rest_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4
+          ],
+          "frameDurationsMs": [
+            9000,
+            10000,
+            11000,
+            12000,
+            11000,
+            9000,
+            8500,
+            9500,
+            10000
+          ],
+          "representative": 2
+        },
+        {
+          "id": "fish_plankton_eat",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.49,
+            0.19
+          ],
+          "size": 0.19,
+          "frames": [
+            "pet_stage_young_fish_fish_plankton_eat_00.png",
+            "pet_stage_young_fish_fish_plankton_eat_01.png",
+            "pet_stage_young_fish_fish_plankton_eat_02.png",
+            "pet_stage_young_fish_fish_plankton_eat_03.png",
+            "pet_stage_young_fish_fish_plankton_eat_04.png",
+            "pet_stage_young_fish_fish_plankton_eat_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            4500,
+            4000,
+            3500,
+            3000,
+            3500,
+            4000,
+            4500,
+            4000
+          ],
+          "representative": 2
+        },
+        {
+          "id": "fish_bubbles_play",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.3,
+            0.57
+          ],
+          "size": 0.2,
+          "frames": [
+            "pet_stage_young_fish_fish_bubbles_play_00.png",
+            "pet_stage_young_fish_fish_bubbles_play_01.png",
+            "pet_stage_young_fish_fish_bubbles_play_02.png",
+            "pet_stage_young_fish_fish_bubbles_play_03.png",
+            "pet_stage_young_fish_fish_bubbles_play_04.png",
+            "pet_stage_young_fish_fish_bubbles_play_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            3500,
+            3000,
+            2500,
+            2200,
+            2400,
+            2800,
+            3200,
+            3500
+          ],
+          "representative": 3
+        },
+        {
+          "id": "fish_arch_watch",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.7,
+            0.31
+          ],
+          "size": 0.19,
+          "frames": [
+            "pet_stage_young_fish_fish_arch_watch_00.png",
+            "pet_stage_young_fish_fish_arch_watch_01.png",
+            "pet_stage_young_fish_fish_arch_watch_02.png",
+            "pet_stage_young_fish_fish_arch_watch_03.png",
+            "pet_stage_young_fish_fish_arch_watch_04.png",
+            "pet_stage_young_fish_fish_arch_watch_05.png"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            8000,
+            7500,
+            6000,
+            5500,
+            6500,
+            5000,
+            6000,
+            7500
+          ],
+          "representative": 2
+        },
+        {
+          "id": "fish_coral_hide",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.79,
+            0.54
+          ],
+          "size": 0.19,
+          "frames": [
+            "pet_stage_young_fish_fish_coral_hide_00.png",
+            "pet_stage_young_fish_fish_coral_hide_01.png",
+            "pet_stage_young_fish_fish_coral_hide_02.png",
+            "pet_stage_young_fish_fish_coral_hide_03.png",
+            "pet_stage_young_fish_fish_coral_hide_04.png",
+            "pet_stage_young_fish_fish_coral_hide_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4
+          ],
+          "frameDurationsMs": [
+            9000,
+            10000,
+            11000,
+            12000,
+            11000,
+            9000,
+            8500,
+            9500,
+            10500
+          ],
+          "representative": 2
+        }
+      ]
+    },
+    "calf": {
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "calf_day.heic",
+      "nightRoom": "calf_night.heic",
+      "slots": [
+        {
+          "id": "calf_cud_chew_idle",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.49,
+            0.47
+          ],
+          "size": 0.26,
+          "frames": [
+            "pet_stage_young_calf_calf_cud_chew_idle_00.png",
+            "pet_stage_young_calf_calf_cud_chew_idle_01.png",
+            "pet_stage_young_calf_calf_cud_chew_idle_02.png",
+            "pet_stage_young_calf_calf_cud_chew_idle_03.png",
+            "pet_stage_young_calf_calf_cud_chew_idle_04.png",
+            "pet_stage_young_calf_calf_cud_chew_idle_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            6500,
+            5000,
+            4500,
+            5000,
+            6000,
+            7000
+          ],
+          "representative": 0
+        },
+        {
+          "id": "calf_ear_twitch_idle",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.69,
+            0.6
+          ],
+          "size": 0.25,
+          "frames": [
+            "pet_stage_young_calf_calf_ear_twitch_idle_00.png",
+            "pet_stage_young_calf_calf_ear_twitch_idle_01.png",
+            "pet_stage_young_calf_calf_ear_twitch_idle_02.png",
+            "pet_stage_young_calf_calf_ear_twitch_idle_03.png",
+            "pet_stage_young_calf_calf_ear_twitch_idle_04.png",
+            "pet_stage_young_calf_calf_ear_twitch_idle_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7000,
+            5000,
+            2500,
+            3000,
+            5000,
+            7500
+          ],
+          "representative": 0
+        },
+        {
+          "id": "calf_lie_rest",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.34,
+            0.68
+          ],
+          "size": 0.27,
+          "frames": [
+            "pet_stage_young_calf_calf_lie_rest_00.png",
+            "pet_stage_young_calf_calf_lie_rest_01.png",
+            "pet_stage_young_calf_calf_lie_rest_02.png",
+            "pet_stage_young_calf_calf_lie_rest_03.png",
+            "pet_stage_young_calf_calf_lie_rest_04.png",
+            "pet_stage_young_calf_calf_lie_rest_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            10000,
+            11000,
+            12000,
+            11000,
+            10000,
+            9000
+          ],
+          "representative": 0
+        },
+        {
+          "id": "calf_yard_play",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.55,
+            0.51
+          ],
+          "size": 0.26,
+          "frames": [
+            "pet_stage_young_calf_calf_yard_play_00.png",
+            "pet_stage_young_calf_calf_yard_play_01.png",
+            "pet_stage_young_calf_calf_yard_play_02.png",
+            "pet_stage_young_calf_calf_yard_play_03.png",
+            "pet_stage_young_calf_calf_yard_play_04.png",
+            "pet_stage_young_calf_calf_yard_play_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            3500,
+            3000,
+            2500,
+            2200,
+            2400,
+            2800,
+            3200,
+            3600
+          ],
+          "representative": 3
+        },
+        {
+          "id": "calf_door_watch",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.63,
+            0.8
+          ],
+          "size": 0.25,
+          "frames": [
+            "pet_stage_young_calf_calf_door_watch_00.png",
+            "pet_stage_young_calf_calf_door_watch_01.png",
+            "pet_stage_young_calf_calf_door_watch_02.png",
+            "pet_stage_young_calf_calf_door_watch_03.png",
+            "pet_stage_young_calf_calf_door_watch_04.png",
+            "pet_stage_young_calf_calf_door_watch_05.png"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            8000,
+            7500,
+            6500,
+            6000,
+            7000,
+            5500,
+            6500,
+            8000
+          ],
+          "representative": 2
+        }
+      ]
+    },
+    "horse": {
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "horse_day.heic",
+      "nightRoom": "horse_night.heic",
+      "slots": [
+        {
+          "id": "horse_stand_doze",
+          "canvas": [
+            320,
+            320
+          ],
+          "anchor": [
+            0.42,
+            0.48
+          ],
+          "size": 0.29,
+          "frames": [
+            "pet_stage_young_horse_horse_stand_doze_00.png",
+            "pet_stage_young_horse_horse_stand_doze_01.png",
+            "pet_stage_young_horse_horse_stand_doze_02.png",
+            "pet_stage_young_horse_horse_stand_doze_03.png",
+            "pet_stage_young_horse_horse_stand_doze_04.png",
+            "pet_stage_young_horse_horse_stand_doze_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            10000,
+            11000,
+            12000,
+            10000,
+            9000,
+            11000
+          ],
+          "representative": 0
+        },
+        {
+          "id": "horse_mane_shake_idle",
+          "canvas": [
+            320,
+            320
+          ],
+          "anchor": [
+            0.64,
+            0.61
+          ],
+          "size": 0.29,
+          "frames": [
+            "pet_stage_young_horse_horse_mane_shake_idle_00.png",
+            "pet_stage_young_horse_horse_mane_shake_idle_01.png",
+            "pet_stage_young_horse_horse_mane_shake_idle_02.png",
+            "pet_stage_young_horse_horse_mane_shake_idle_03.png",
+            "pet_stage_young_horse_horse_mane_shake_idle_04.png",
+            "pet_stage_young_horse_horse_mane_shake_idle_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            6000,
+            3000,
+            2200,
+            2500,
+            3500,
+            6500
+          ],
+          "representative": 0
+        },
+        {
+          "id": "horse_ear_alert",
+          "canvas": [
+            320,
+            320
+          ],
+          "anchor": [
+            0.48,
+            0.73
+          ],
+          "size": 0.28,
+          "frames": [
+            "pet_stage_young_horse_horse_ear_alert_00.png",
+            "pet_stage_young_horse_horse_ear_alert_01.png",
+            "pet_stage_young_horse_horse_ear_alert_02.png",
+            "pet_stage_young_horse_horse_ear_alert_03.png",
+            "pet_stage_young_horse_horse_ear_alert_04.png",
+            "pet_stage_young_horse_horse_ear_alert_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7500,
+            6000,
+            3000,
+            3500,
+            6000,
+            8000
+          ],
+          "representative": 0
+        },
+        {
+          "id": "horse_track_run",
+          "canvas": [
+            320,
+            320
+          ],
+          "anchor": [
+            0.52,
+            0.58
+          ],
+          "size": 0.3,
+          "frames": [
+            "pet_stage_young_horse_horse_track_run_00.png",
+            "pet_stage_young_horse_horse_track_run_01.png",
+            "pet_stage_young_horse_horse_track_run_02.png",
+            "pet_stage_young_horse_horse_track_run_03.png",
+            "pet_stage_young_horse_horse_track_run_04.png",
+            "pet_stage_young_horse_horse_track_run_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            3000,
+            2500,
+            2200,
+            2400,
+            2600,
+            3200
+          ],
+          "representative": 3
+        },
+        {
+          "id": "horse_tree_watch",
+          "canvas": [
+            320,
+            320
+          ],
+          "anchor": [
+            0.76,
+            0.31
+          ],
+          "size": 0.28,
+          "frames": [
+            "pet_stage_young_horse_horse_tree_watch_00.png",
+            "pet_stage_young_horse_horse_tree_watch_01.png",
+            "pet_stage_young_horse_horse_tree_watch_02.png",
+            "pet_stage_young_horse_horse_tree_watch_03.png",
+            "pet_stage_young_horse_horse_tree_watch_04.png",
+            "pet_stage_young_horse_horse_tree_watch_05.png"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            8500,
+            7500,
+            6500,
+            6000,
+            7000,
+            5500,
+            6500,
+            8000
+          ],
+          "representative": 2
+        }
+      ]
+    },
+    "panda": {
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "panda_day.heic",
+      "nightRoom": "panda_night.heic",
+      "slots": [
+        {
+          "id": "panda_platform_rest",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.77,
+            0.29
+          ],
+          "size": 0.26,
+          "frames": [
+            "pet_stage_young_panda_panda_platform_rest_00.png",
+            "pet_stage_young_panda_panda_platform_rest_01.png",
+            "pet_stage_young_panda_panda_platform_rest_02.png",
+            "pet_stage_young_panda_panda_platform_rest_03.png",
+            "pet_stage_young_panda_panda_platform_rest_04.png",
+            "pet_stage_young_panda_panda_platform_rest_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4
+          ],
+          "frameDurationsMs": [
+            10000,
+            11000,
+            12000,
+            11000,
+            10000,
+            9000,
+            8500,
+            9500,
+            10500
+          ],
+          "representative": 2
+        },
+        {
+          "id": "panda_bamboo_eat",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.65,
+            0.45
+          ],
+          "size": 0.26,
+          "frames": [
+            "pet_stage_young_panda_panda_bamboo_eat_00.png",
+            "pet_stage_young_panda_panda_bamboo_eat_01.png",
+            "pet_stage_young_panda_panda_bamboo_eat_02.png",
+            "pet_stage_young_panda_panda_bamboo_eat_03.png",
+            "pet_stage_young_panda_panda_bamboo_eat_04.png",
+            "pet_stage_young_panda_panda_bamboo_eat_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            5000,
+            4500,
+            4000,
+            3500,
+            4000,
+            4500,
+            5000,
+            4500
+          ],
+          "representative": 2
+        },
+        {
+          "id": "panda_ball_play",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.57,
+            0.61
+          ],
+          "size": 0.27,
+          "frames": [
+            "pet_stage_young_panda_panda_ball_play_00.png",
+            "pet_stage_young_panda_panda_ball_play_01.png",
+            "pet_stage_young_panda_panda_ball_play_02.png",
+            "pet_stage_young_panda_panda_ball_play_03.png",
+            "pet_stage_young_panda_panda_ball_play_04.png",
+            "pet_stage_young_panda_panda_ball_play_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            3500,
+            3000,
+            2500,
+            2200,
+            2400,
+            2800,
+            3200,
+            3800
+          ],
+          "representative": 3
+        },
+        {
+          "id": "panda_fountain_watch",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.25,
+            0.36
+          ],
+          "size": 0.25,
+          "frames": [
+            "pet_stage_young_panda_panda_fountain_watch_00.png",
+            "pet_stage_young_panda_panda_fountain_watch_01.png",
+            "pet_stage_young_panda_panda_fountain_watch_02.png",
+            "pet_stage_young_panda_panda_fountain_watch_03.png",
+            "pet_stage_young_panda_panda_fountain_watch_04.png",
+            "pet_stage_young_panda_panda_fountain_watch_05.png"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            8000,
+            7500,
+            6000,
+            5500,
+            6500,
+            5000,
+            6000,
+            8000
+          ],
+          "representative": 2
+        },
+        {
+          "id": "panda_groom_sit",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.46,
+            0.54
+          ],
+          "size": 0.26,
+          "frames": [
+            "pet_stage_young_panda_panda_groom_sit_00.png",
+            "pet_stage_young_panda_panda_groom_sit_01.png",
+            "pet_stage_young_panda_panda_groom_sit_02.png",
+            "pet_stage_young_panda_panda_groom_sit_03.png",
+            "pet_stage_young_panda_panda_groom_sit_04.png",
+            "pet_stage_young_panda_panda_groom_sit_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            6000,
+            4500,
+            4000,
+            4200,
+            5000,
+            6500
+          ],
+          "representative": 0
+        }
+      ]
+    },
+    "rabbit": {
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "rabbit_day.heic",
+      "nightRoom": "rabbit_night.heic",
+      "slots": [
+        {
+          "id": "rabbit_alert_sit",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.43,
+            0.51
+          ],
+          "size": 0.21,
+          "frames": [
+            "pet_stage_young_rabbit_rabbit_alert_sit_00.png",
+            "pet_stage_young_rabbit_rabbit_alert_sit_01.png",
+            "pet_stage_young_rabbit_rabbit_alert_sit_02.png",
+            "pet_stage_young_rabbit_rabbit_alert_sit_03.png",
+            "pet_stage_young_rabbit_rabbit_alert_sit_04.png",
+            "pet_stage_young_rabbit_rabbit_alert_sit_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7500,
+            6500,
+            4000,
+            4500,
+            6000,
+            8000
+          ],
+          "representative": 0
+        },
+        {
+          "id": "rabbit_ear_twitch_idle",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.64,
+            0.63
+          ],
+          "size": 0.21,
+          "frames": [
+            "pet_stage_young_rabbit_rabbit_ear_twitch_idle_00.png",
+            "pet_stage_young_rabbit_rabbit_ear_twitch_idle_01.png",
+            "pet_stage_young_rabbit_rabbit_ear_twitch_idle_02.png",
+            "pet_stage_young_rabbit_rabbit_ear_twitch_idle_03.png",
+            "pet_stage_young_rabbit_rabbit_ear_twitch_idle_04.png",
+            "pet_stage_young_rabbit_rabbit_ear_twitch_idle_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7000,
+            5000,
+            2500,
+            2800,
+            5000,
+            7500
+          ],
+          "representative": 0
+        },
+        {
+          "id": "rabbit_face_wash",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.36,
+            0.7
+          ],
+          "size": 0.21,
+          "frames": [
+            "pet_stage_young_rabbit_rabbit_face_wash_00.png",
+            "pet_stage_young_rabbit_rabbit_face_wash_01.png",
+            "pet_stage_young_rabbit_rabbit_face_wash_02.png",
+            "pet_stage_young_rabbit_rabbit_face_wash_03.png",
+            "pet_stage_young_rabbit_rabbit_face_wash_04.png",
+            "pet_stage_young_rabbit_rabbit_face_wash_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            5000,
+            4200,
+            3500,
+            3800,
+            4500,
+            5500
+          ],
+          "representative": 0
+        },
+        {
+          "id": "rabbit_gate_watch",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.5,
+            0.82
+          ],
+          "size": 0.21,
+          "frames": [
+            "pet_stage_young_rabbit_rabbit_gate_watch_00.png",
+            "pet_stage_young_rabbit_rabbit_gate_watch_01.png",
+            "pet_stage_young_rabbit_rabbit_gate_watch_02.png",
+            "pet_stage_young_rabbit_rabbit_gate_watch_03.png",
+            "pet_stage_young_rabbit_rabbit_gate_watch_04.png",
+            "pet_stage_young_rabbit_rabbit_gate_watch_05.png"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            8000,
+            7500,
+            6500,
+            6000,
+            7000,
+            5500,
+            6500,
+            8500
+          ],
+          "representative": 2
+        },
+        {
+          "id": "rabbit_curl_rest",
+          "canvas": [
+            256,
+            256
+          ],
+          "anchor": [
+            0.45,
+            0.6
+          ],
+          "size": 0.22,
+          "frames": [
+            "pet_stage_young_rabbit_rabbit_curl_rest_00.png",
+            "pet_stage_young_rabbit_rabbit_curl_rest_01.png",
+            "pet_stage_young_rabbit_rabbit_curl_rest_02.png",
+            "pet_stage_young_rabbit_rabbit_curl_rest_03.png",
+            "pet_stage_young_rabbit_rabbit_curl_rest_04.png",
+            "pet_stage_young_rabbit_rabbit_curl_rest_05.png"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            10000,
+            11000,
+            12000,
+            11000,
+            9500,
+            10500
+          ],
+          "representative": 0
+        }
+      ]
+    }
+  }
+}

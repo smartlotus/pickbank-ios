@@ -1,0 +1,13 @@
+.DS_Store
+.swiftpm/
+.build/
+Packages/PickBankCore/.build/
+Packages/PickBankCore/.swiftpm/
+build/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.ipa
+*.dSYM
+*.mobileprovision

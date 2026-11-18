@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build-ipa:
-    name: Test Core & Build Universal iOS IPA (Xcode 26 / iOS 26 SDK)
+    name: Test Core+UI & Build Universal iOS IPA (Xcode 26 / iOS 26 SDK)
     runs-on: macos-26
 
     steps:
@@ -25,17 +25,14 @@ jobs:
           xcodebuild -version
           xcodebuild -showsdks
 
-      - name: Run PickBankCore unit tests
+      - name: Run PickBankCore & PickBankUI tests + package build
         run: |
-          cd Packages/PickBankCore
+          swift build
           swift test
 
-      - name: Install XcodeGen & generate PickBank.xcodeproj
+      - name: Resolve package dependencies
         run: |
-          if ! command -v xcodegen >/dev/null 2>&1; then
-            brew install xcodegen
-          fi
-          xcodegen generate
+          xcodebuild -project PickBank.xcodeproj -scheme PickBank -resolvePackageDependencies
 
       - name: Build Universal iOS App (iPhone + iPad, Release, Unsigned)
         run: |
@@ -47,7 +44,8 @@ jobs:
             -derivedDataPath build/DerivedData \
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGNING_ALLOWED=NO
+            CODE_SIGNING_ALLOWED=NO \
+            AD_HOC_CODE_SIGNING_ALLOWED=YES
 
       - name: Verify iOS Simulator build
         run: |
@@ -68,6 +66,9 @@ jobs:
           test -d "$APP_PATH"
           mkdir -p dist/Payload
           cp -R "$APP_PATH" dist/Payload/
+          if command -v codesign >/dev/null 2>&1; then
+            codesign --force --deep --sign - dist/Payload/PickBank.app || true
+          fi
           cd dist
           zip -qry PickBank-iOS.ipa Payload
           rm -rf Payload
@@ -93,5 +94,5 @@ jobs:
           else
             gh release create "$TAG" dist/PickBank-iOS.ipa dist/SHA256SUMS.txt \
               --title "PickBank iOS v2.0.0 (Liquid Glass Universal)" \
-              --notes "Universal unsigned iPhone + iPad IPA built with Xcode 26 / iOS 26 SDK. Ready for $0 SideStore / AltStore / Sideloadly sideloading."
+              --notes "Universal unsigned iPhone + iPad IPA built directly from PickBank.xcodeproj with Xcode 26 / iOS 26 SDK. Ready for $0 SideStore / AltStore / Sideloadly sideloading."
           fi

@@ -1,0 +1,4056 @@
+{
+  "version": 2,
+  "species": {
+    "cat": {
+      "speciesKey": "cat",
+      "zhName": "小猫",
+      "enName": "Cat",
+      "homeLabel": "慵懒客厅",
+      "authoredCanvas": [
+        720,
+        1280
+      ],
+      "dayRoom": "cat_day.heic",
+      "nightRoom": "cat_night.heic",
+      "roamingPrefix": "pet_cat",
+      "slots": [
+        {
+          "id": "sofa_sleep",
+          "label": "沙发睡眠",
+          "role": "REST",
+          "anchor": [
+            0.28,
+            0.42
+          ],
+          "size": 0.29,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 32,
+          "restLike": true,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            2,
+            2,
+            4,
+            2,
+            2,
+            5,
+            2
+          ],
+          "frameDurationsMs": [
+            10000,
+            9000,
+            10000,
+            11000,
+            12000,
+            12000,
+            10000,
+            12000,
+            11000,
+            9000,
+            12000,
+            11000,
+            8000,
+            12000
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_cat_sofa_sleep_00.heic",
+            "pet_fixed_cat_sofa_sleep_01.heic",
+            "pet_fixed_cat_sofa_sleep_02.heic",
+            "pet_fixed_cat_sofa_sleep_03.heic",
+            "pet_fixed_cat_sofa_sleep_04.heic",
+            "pet_fixed_cat_sofa_sleep_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_cat_sofa_sleep_00.heic",
+            "pet_night_fixed_cat_sofa_sleep_01.heic",
+            "pet_night_fixed_cat_sofa_sleep_02.heic",
+            "pet_night_fixed_cat_sofa_sleep_03.heic",
+            "pet_night_fixed_cat_sofa_sleep_04.heic",
+            "pet_night_fixed_cat_sofa_sleep_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_cat_sofa_sleep.heic",
+          "nightCleanupPatch": "pet_night_stage_background_cat_sofa_sleep.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_cat_sofa_sleep_00.png",
+              "pet_stage_young_cat_sofa_sleep_01.png",
+              "pet_stage_young_cat_sofa_sleep_02.png",
+              "pet_stage_young_cat_sofa_sleep_03.png",
+              "pet_stage_young_cat_sofa_sleep_04.png",
+              "pet_stage_young_cat_sofa_sleep_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_cat_sofa_sleep_00.png",
+              "pet_stage_prime_cat_sofa_sleep_01.png",
+              "pet_stage_prime_cat_sofa_sleep_02.png",
+              "pet_stage_prime_cat_sofa_sleep_03.png",
+              "pet_stage_prime_cat_sofa_sleep_04.png",
+              "pet_stage_prime_cat_sofa_sleep_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_cat_sofa_sleep_00.png",
+              "pet_stage_middle_aged_cat_sofa_sleep_01.png",
+              "pet_stage_middle_aged_cat_sofa_sleep_02.png",
+              "pet_stage_middle_aged_cat_sofa_sleep_03.png",
+              "pet_stage_middle_aged_cat_sofa_sleep_04.png",
+              "pet_stage_middle_aged_cat_sofa_sleep_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_cat_sofa_sleep_00.png",
+              "pet_stage_senior_cat_sofa_sleep_01.png",
+              "pet_stage_senior_cat_sofa_sleep_02.png",
+              "pet_stage_senior_cat_sofa_sleep_03.png",
+              "pet_stage_senior_cat_sofa_sleep_04.png",
+              "pet_stage_senior_cat_sofa_sleep_05.png"
+            ]
+          }
+        },
+        {
+          "id": "ball_play",
+          "label": "玩球",
+          "role": "PLAY",
+          "anchor": [
+            0.62,
+            0.51
+          ],
+          "size": 0.26,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 12,
+          "restLike": false,
+          "allowedSatiety": [
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            5,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            3500,
+            3000,
+            3000,
+            2500,
+            2500,
+            2200,
+            2500,
+            2800,
+            2400,
+            2600,
+            2800,
+            3200
+          ],
+          "representative": 4,
+          "infantDayFrames": [
+            "pet_fixed_cat_ball_play_00.heic",
+            "pet_fixed_cat_ball_play_01.heic",
+            "pet_fixed_cat_ball_play_02.heic",
+            "pet_fixed_cat_ball_play_03.heic",
+            "pet_fixed_cat_ball_play_04.heic",
+            "pet_fixed_cat_ball_play_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_cat_ball_play_00.heic",
+            "pet_night_fixed_cat_ball_play_01.heic",
+            "pet_night_fixed_cat_ball_play_02.heic",
+            "pet_night_fixed_cat_ball_play_03.heic",
+            "pet_night_fixed_cat_ball_play_04.heic",
+            "pet_night_fixed_cat_ball_play_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_cat_ball_play.heic",
+          "nightCleanupPatch": "pet_night_stage_background_cat_ball_play.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_cat_ball_play_00.png",
+              "pet_stage_young_cat_ball_play_01.png",
+              "pet_stage_young_cat_ball_play_02.png",
+              "pet_stage_young_cat_ball_play_03.png",
+              "pet_stage_young_cat_ball_play_04.png",
+              "pet_stage_young_cat_ball_play_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_cat_ball_play_00.png",
+              "pet_stage_prime_cat_ball_play_01.png",
+              "pet_stage_prime_cat_ball_play_02.png",
+              "pet_stage_prime_cat_ball_play_03.png",
+              "pet_stage_prime_cat_ball_play_04.png",
+              "pet_stage_prime_cat_ball_play_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_cat_ball_play_00.png",
+              "pet_stage_middle_aged_cat_ball_play_01.png",
+              "pet_stage_middle_aged_cat_ball_play_02.png",
+              "pet_stage_middle_aged_cat_ball_play_03.png",
+              "pet_stage_middle_aged_cat_ball_play_04.png",
+              "pet_stage_middle_aged_cat_ball_play_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_cat_ball_play_00.png",
+              "pet_stage_senior_cat_ball_play_01.png",
+              "pet_stage_senior_cat_ball_play_02.png",
+              "pet_stage_senior_cat_ball_play_03.png",
+              "pet_stage_senior_cat_ball_play_04.png",
+              "pet_stage_senior_cat_ball_play_05.png"
+            ]
+          }
+        },
+        {
+          "id": "window_watch",
+          "label": "窗边观察",
+          "role": "WATCH",
+          "anchor": [
+            0.37,
+            0.31
+          ],
+          "size": 0.24,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 24,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            2,
+            4,
+            5,
+            5
+          ],
+          "frameDurationsMs": [
+            8000,
+            7000,
+            6000,
+            5500,
+            6500,
+            5000,
+            7000,
+            5500,
+            6000,
+            8000
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_cat_window_watch_00.heic",
+            "pet_fixed_cat_window_watch_01.heic",
+            "pet_fixed_cat_window_watch_02.heic",
+            "pet_fixed_cat_window_watch_03.heic",
+            "pet_fixed_cat_window_watch_04.heic",
+            "pet_fixed_cat_window_watch_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_cat_window_watch_00.heic",
+            "pet_night_fixed_cat_window_watch_01.heic",
+            "pet_night_fixed_cat_window_watch_02.heic",
+            "pet_night_fixed_cat_window_watch_03.heic",
+            "pet_night_fixed_cat_window_watch_04.heic",
+            "pet_night_fixed_cat_window_watch_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_cat_window_watch.heic",
+          "nightCleanupPatch": "pet_night_stage_background_cat_window_watch.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_cat_window_watch_00.png",
+              "pet_stage_young_cat_window_watch_01.png",
+              "pet_stage_young_cat_window_watch_02.png",
+              "pet_stage_young_cat_window_watch_03.png",
+              "pet_stage_young_cat_window_watch_04.png",
+              "pet_stage_young_cat_window_watch_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_cat_window_watch_00.png",
+              "pet_stage_prime_cat_window_watch_01.png",
+              "pet_stage_prime_cat_window_watch_02.png",
+              "pet_stage_prime_cat_window_watch_03.png",
+              "pet_stage_prime_cat_window_watch_04.png",
+              "pet_stage_prime_cat_window_watch_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_cat_window_watch_00.png",
+              "pet_stage_middle_aged_cat_window_watch_01.png",
+              "pet_stage_middle_aged_cat_window_watch_02.png",
+              "pet_stage_middle_aged_cat_window_watch_03.png",
+              "pet_stage_middle_aged_cat_window_watch_04.png",
+              "pet_stage_middle_aged_cat_window_watch_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_cat_window_watch_00.png",
+              "pet_stage_senior_cat_window_watch_01.png",
+              "pet_stage_senior_cat_window_watch_02.png",
+              "pet_stage_senior_cat_window_watch_03.png",
+              "pet_stage_senior_cat_window_watch_04.png",
+              "pet_stage_senior_cat_window_watch_05.png"
+            ]
+          }
+        },
+        {
+          "id": "cat_groom_sit",
+          "label": "原地舔毛",
+          "role": "REST",
+          "anchor": [
+            0.49,
+            0.65
+          ],
+          "size": 0.25,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 24,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            5000,
+            4000,
+            3500,
+            3500,
+            4500,
+            5500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_cat_cat_groom_sit_00.heic",
+            "pet_fixed_cat_cat_groom_sit_01.heic",
+            "pet_fixed_cat_cat_groom_sit_02.heic",
+            "pet_fixed_cat_cat_groom_sit_03.heic",
+            "pet_fixed_cat_cat_groom_sit_04.heic",
+            "pet_fixed_cat_cat_groom_sit_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_cat_cat_groom_sit_00.heic",
+            "pet_night_fixed_cat_cat_groom_sit_01.heic",
+            "pet_night_fixed_cat_cat_groom_sit_02.heic",
+            "pet_night_fixed_cat_cat_groom_sit_03.heic",
+            "pet_night_fixed_cat_cat_groom_sit_04.heic",
+            "pet_night_fixed_cat_cat_groom_sit_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_cat_cat_groom_sit.heic",
+          "nightCleanupPatch": "pet_night_stage_background_cat_cat_groom_sit.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_cat_cat_groom_sit_00.png",
+              "pet_stage_young_cat_cat_groom_sit_01.png",
+              "pet_stage_young_cat_cat_groom_sit_02.png",
+              "pet_stage_young_cat_cat_groom_sit_03.png",
+              "pet_stage_young_cat_cat_groom_sit_04.png",
+              "pet_stage_young_cat_cat_groom_sit_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_cat_cat_groom_sit_00.png",
+              "pet_stage_prime_cat_cat_groom_sit_01.png",
+              "pet_stage_prime_cat_cat_groom_sit_02.png",
+              "pet_stage_prime_cat_cat_groom_sit_03.png",
+              "pet_stage_prime_cat_cat_groom_sit_04.png",
+              "pet_stage_prime_cat_cat_groom_sit_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_cat_cat_groom_sit_00.png",
+              "pet_stage_middle_aged_cat_cat_groom_sit_01.png",
+              "pet_stage_middle_aged_cat_cat_groom_sit_02.png",
+              "pet_stage_middle_aged_cat_cat_groom_sit_03.png",
+              "pet_stage_middle_aged_cat_cat_groom_sit_04.png",
+              "pet_stage_middle_aged_cat_cat_groom_sit_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_cat_cat_groom_sit_00.png",
+              "pet_stage_senior_cat_cat_groom_sit_01.png",
+              "pet_stage_senior_cat_cat_groom_sit_02.png",
+              "pet_stage_senior_cat_cat_groom_sit_03.png",
+              "pet_stage_senior_cat_cat_groom_sit_04.png",
+              "pet_stage_senior_cat_cat_groom_sit_05.png"
+            ]
+          }
+        },
+        {
+          "id": "cat_stretch_idle",
+          "label": "原地伸懒腰",
+          "role": "WATCH",
+          "anchor": [
+            0.66,
+            0.72
+          ],
+          "size": 0.26,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 18,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7000,
+            3500,
+            3000,
+            2500,
+            3500,
+            6500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_cat_cat_stretch_idle_00.heic",
+            "pet_fixed_cat_cat_stretch_idle_01.heic",
+            "pet_fixed_cat_cat_stretch_idle_02.heic",
+            "pet_fixed_cat_cat_stretch_idle_03.heic",
+            "pet_fixed_cat_cat_stretch_idle_04.heic",
+            "pet_fixed_cat_cat_stretch_idle_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_cat_cat_stretch_idle_00.heic",
+            "pet_night_fixed_cat_cat_stretch_idle_01.heic",
+            "pet_night_fixed_cat_cat_stretch_idle_02.heic",
+            "pet_night_fixed_cat_cat_stretch_idle_03.heic",
+            "pet_night_fixed_cat_cat_stretch_idle_04.heic",
+            "pet_night_fixed_cat_cat_stretch_idle_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_cat_cat_stretch_idle.heic",
+          "nightCleanupPatch": "pet_night_stage_background_cat_cat_stretch_idle.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_cat_cat_stretch_idle_00.png",
+              "pet_stage_young_cat_cat_stretch_idle_01.png",
+              "pet_stage_young_cat_cat_stretch_idle_02.png",
+              "pet_stage_young_cat_cat_stretch_idle_03.png",
+              "pet_stage_young_cat_cat_stretch_idle_04.png",
+              "pet_stage_young_cat_cat_stretch_idle_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_cat_cat_stretch_idle_00.png",
+              "pet_stage_prime_cat_cat_stretch_idle_01.png",
+              "pet_stage_prime_cat_cat_stretch_idle_02.png",
+              "pet_stage_prime_cat_cat_stretch_idle_03.png",
+              "pet_stage_prime_cat_cat_stretch_idle_04.png",
+              "pet_stage_prime_cat_cat_stretch_idle_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_cat_cat_stretch_idle_00.png",
+              "pet_stage_middle_aged_cat_cat_stretch_idle_01.png",
+              "pet_stage_middle_aged_cat_cat_stretch_idle_02.png",
+              "pet_stage_middle_aged_cat_cat_stretch_idle_03.png",
+              "pet_stage_middle_aged_cat_cat_stretch_idle_04.png",
+              "pet_stage_middle_aged_cat_cat_stretch_idle_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_cat_cat_stretch_idle_00.png",
+              "pet_stage_senior_cat_cat_stretch_idle_01.png",
+              "pet_stage_senior_cat_cat_stretch_idle_02.png",
+              "pet_stage_senior_cat_cat_stretch_idle_03.png",
+              "pet_stage_senior_cat_cat_stretch_idle_04.png",
+              "pet_stage_senior_cat_cat_stretch_idle_05.png"
+            ]
+          }
+        }
+      ]
+    },
+    "dog": {
+      "speciesKey": "dog",
+      "zhName": "小狗",
+      "enName": "Dog",
+      "homeLabel": "阳光小院",
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "dog_day.heic",
+      "nightRoom": "dog_night.heic",
+      "roamingPrefix": "pet_dog",
+      "slots": [
+        {
+          "id": "dog_porch_rest",
+          "label": "门廊休息",
+          "role": "REST",
+          "anchor": [
+            0.79,
+            0.29
+          ],
+          "size": 0.22,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 35,
+          "restLike": true,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4,
+            5,
+            4
+          ],
+          "frameDurationsMs": [
+            9000,
+            10000,
+            11000,
+            12000,
+            11000,
+            9500,
+            8500,
+            10000,
+            9000,
+            10500
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_dog_dog_porch_rest_00.heic",
+            "pet_fixed_dog_dog_porch_rest_01.heic",
+            "pet_fixed_dog_dog_porch_rest_02.heic",
+            "pet_fixed_dog_dog_porch_rest_03.heic",
+            "pet_fixed_dog_dog_porch_rest_04.heic",
+            "pet_fixed_dog_dog_porch_rest_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_dog_dog_porch_rest_00.heic",
+            "pet_night_fixed_dog_dog_porch_rest_01.heic",
+            "pet_night_fixed_dog_dog_porch_rest_02.heic",
+            "pet_night_fixed_dog_dog_porch_rest_03.heic",
+            "pet_night_fixed_dog_dog_porch_rest_04.heic",
+            "pet_night_fixed_dog_dog_porch_rest_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_dog_dog_porch_rest.heic",
+          "nightCleanupPatch": "pet_night_stage_background_dog_dog_porch_rest.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_dog_dog_porch_rest_00.png",
+              "pet_stage_young_dog_dog_porch_rest_01.png",
+              "pet_stage_young_dog_dog_porch_rest_02.png",
+              "pet_stage_young_dog_dog_porch_rest_03.png",
+              "pet_stage_young_dog_dog_porch_rest_04.png",
+              "pet_stage_young_dog_dog_porch_rest_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_dog_dog_porch_rest_00.png",
+              "pet_stage_prime_dog_dog_porch_rest_01.png",
+              "pet_stage_prime_dog_dog_porch_rest_02.png",
+              "pet_stage_prime_dog_dog_porch_rest_03.png",
+              "pet_stage_prime_dog_dog_porch_rest_04.png",
+              "pet_stage_prime_dog_dog_porch_rest_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_dog_dog_porch_rest_00.png",
+              "pet_stage_middle_aged_dog_dog_porch_rest_01.png",
+              "pet_stage_middle_aged_dog_dog_porch_rest_02.png",
+              "pet_stage_middle_aged_dog_dog_porch_rest_03.png",
+              "pet_stage_middle_aged_dog_dog_porch_rest_04.png",
+              "pet_stage_middle_aged_dog_dog_porch_rest_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_dog_dog_porch_rest_00.png",
+              "pet_stage_senior_dog_dog_porch_rest_01.png",
+              "pet_stage_senior_dog_dog_porch_rest_02.png",
+              "pet_stage_senior_dog_dog_porch_rest_03.png",
+              "pet_stage_senior_dog_dog_porch_rest_04.png",
+              "pet_stage_senior_dog_dog_porch_rest_05.png"
+            ]
+          }
+        },
+        {
+          "id": "dog_gate_watch",
+          "label": "门边观察",
+          "role": "WATCH",
+          "anchor": [
+            0.53,
+            0.84
+          ],
+          "size": 0.2,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 22,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4
+          ],
+          "frameDurationsMs": [
+            8000,
+            7000,
+            6000,
+            5500,
+            6500,
+            5000,
+            5500,
+            6500,
+            7500
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_dog_dog_gate_watch_00.heic",
+            "pet_fixed_dog_dog_gate_watch_01.heic",
+            "pet_fixed_dog_dog_gate_watch_02.heic",
+            "pet_fixed_dog_dog_gate_watch_03.heic",
+            "pet_fixed_dog_dog_gate_watch_04.heic",
+            "pet_fixed_dog_dog_gate_watch_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_dog_dog_gate_watch_00.heic",
+            "pet_night_fixed_dog_dog_gate_watch_01.heic",
+            "pet_night_fixed_dog_dog_gate_watch_02.heic",
+            "pet_night_fixed_dog_dog_gate_watch_03.heic",
+            "pet_night_fixed_dog_dog_gate_watch_04.heic",
+            "pet_night_fixed_dog_dog_gate_watch_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_dog_dog_gate_watch.heic",
+          "nightCleanupPatch": "pet_night_stage_background_dog_dog_gate_watch.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_dog_dog_gate_watch_00.png",
+              "pet_stage_young_dog_dog_gate_watch_01.png",
+              "pet_stage_young_dog_dog_gate_watch_02.png",
+              "pet_stage_young_dog_dog_gate_watch_03.png",
+              "pet_stage_young_dog_dog_gate_watch_04.png",
+              "pet_stage_young_dog_dog_gate_watch_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_dog_dog_gate_watch_00.png",
+              "pet_stage_prime_dog_dog_gate_watch_01.png",
+              "pet_stage_prime_dog_dog_gate_watch_02.png",
+              "pet_stage_prime_dog_dog_gate_watch_03.png",
+              "pet_stage_prime_dog_dog_gate_watch_04.png",
+              "pet_stage_prime_dog_dog_gate_watch_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_dog_dog_gate_watch_00.png",
+              "pet_stage_middle_aged_dog_dog_gate_watch_01.png",
+              "pet_stage_middle_aged_dog_dog_gate_watch_02.png",
+              "pet_stage_middle_aged_dog_dog_gate_watch_03.png",
+              "pet_stage_middle_aged_dog_dog_gate_watch_04.png",
+              "pet_stage_middle_aged_dog_dog_gate_watch_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_dog_dog_gate_watch_00.png",
+              "pet_stage_senior_dog_dog_gate_watch_01.png",
+              "pet_stage_senior_dog_dog_gate_watch_02.png",
+              "pet_stage_senior_dog_dog_gate_watch_03.png",
+              "pet_stage_senior_dog_dog_gate_watch_04.png",
+              "pet_stage_senior_dog_dog_gate_watch_05.png"
+            ]
+          }
+        },
+        {
+          "id": "dog_kennel_hide",
+          "label": "犬舍休息",
+          "role": "HIDE",
+          "anchor": [
+            0.18,
+            0.29
+          ],
+          "size": 0.2,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 28,
+          "restLike": true,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            10000,
+            11000,
+            12000,
+            11000,
+            12000,
+            9500,
+            8500,
+            9000,
+            10500
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_dog_dog_kennel_hide_00.heic",
+            "pet_fixed_dog_dog_kennel_hide_01.heic",
+            "pet_fixed_dog_dog_kennel_hide_02.heic",
+            "pet_fixed_dog_dog_kennel_hide_03.heic",
+            "pet_fixed_dog_dog_kennel_hide_04.heic",
+            "pet_fixed_dog_dog_kennel_hide_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_dog_dog_kennel_hide_00.heic",
+            "pet_night_fixed_dog_dog_kennel_hide_01.heic",
+            "pet_night_fixed_dog_dog_kennel_hide_02.heic",
+            "pet_night_fixed_dog_dog_kennel_hide_03.heic",
+            "pet_night_fixed_dog_dog_kennel_hide_04.heic",
+            "pet_night_fixed_dog_dog_kennel_hide_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_dog_dog_kennel_hide.heic",
+          "nightCleanupPatch": "pet_night_stage_background_dog_dog_kennel_hide.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_dog_dog_kennel_hide_00.png",
+              "pet_stage_young_dog_dog_kennel_hide_01.png",
+              "pet_stage_young_dog_dog_kennel_hide_02.png",
+              "pet_stage_young_dog_dog_kennel_hide_03.png",
+              "pet_stage_young_dog_dog_kennel_hide_04.png",
+              "pet_stage_young_dog_dog_kennel_hide_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_dog_dog_kennel_hide_00.png",
+              "pet_stage_prime_dog_dog_kennel_hide_01.png",
+              "pet_stage_prime_dog_dog_kennel_hide_02.png",
+              "pet_stage_prime_dog_dog_kennel_hide_03.png",
+              "pet_stage_prime_dog_dog_kennel_hide_04.png",
+              "pet_stage_prime_dog_dog_kennel_hide_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_dog_dog_kennel_hide_00.png",
+              "pet_stage_middle_aged_dog_dog_kennel_hide_01.png",
+              "pet_stage_middle_aged_dog_dog_kennel_hide_02.png",
+              "pet_stage_middle_aged_dog_dog_kennel_hide_03.png",
+              "pet_stage_middle_aged_dog_dog_kennel_hide_04.png",
+              "pet_stage_middle_aged_dog_dog_kennel_hide_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_dog_dog_kennel_hide_00.png",
+              "pet_stage_senior_dog_dog_kennel_hide_01.png",
+              "pet_stage_senior_dog_dog_kennel_hide_02.png",
+              "pet_stage_senior_dog_dog_kennel_hide_03.png",
+              "pet_stage_senior_dog_dog_kennel_hide_04.png",
+              "pet_stage_senior_dog_dog_kennel_hide_05.png"
+            ]
+          }
+        },
+        {
+          "id": "dog_tail_wag_sit",
+          "label": "坐姿摇尾",
+          "role": "PLAY",
+          "anchor": [
+            0.44,
+            0.52
+          ],
+          "size": 0.2,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 22,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            3200,
+            2500,
+            2200,
+            2400,
+            2800,
+            3500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_dog_dog_tail_wag_sit_00.heic",
+            "pet_fixed_dog_dog_tail_wag_sit_01.heic",
+            "pet_fixed_dog_dog_tail_wag_sit_02.heic",
+            "pet_fixed_dog_dog_tail_wag_sit_03.heic",
+            "pet_fixed_dog_dog_tail_wag_sit_04.heic",
+            "pet_fixed_dog_dog_tail_wag_sit_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_dog_dog_tail_wag_sit_00.heic",
+            "pet_night_fixed_dog_dog_tail_wag_sit_01.heic",
+            "pet_night_fixed_dog_dog_tail_wag_sit_02.heic",
+            "pet_night_fixed_dog_dog_tail_wag_sit_03.heic",
+            "pet_night_fixed_dog_dog_tail_wag_sit_04.heic",
+            "pet_night_fixed_dog_dog_tail_wag_sit_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_dog_dog_tail_wag_sit.heic",
+          "nightCleanupPatch": "pet_night_stage_background_dog_dog_tail_wag_sit.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_dog_dog_tail_wag_sit_00.png",
+              "pet_stage_young_dog_dog_tail_wag_sit_01.png",
+              "pet_stage_young_dog_dog_tail_wag_sit_02.png",
+              "pet_stage_young_dog_dog_tail_wag_sit_03.png",
+              "pet_stage_young_dog_dog_tail_wag_sit_04.png",
+              "pet_stage_young_dog_dog_tail_wag_sit_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_dog_dog_tail_wag_sit_00.png",
+              "pet_stage_prime_dog_dog_tail_wag_sit_01.png",
+              "pet_stage_prime_dog_dog_tail_wag_sit_02.png",
+              "pet_stage_prime_dog_dog_tail_wag_sit_03.png",
+              "pet_stage_prime_dog_dog_tail_wag_sit_04.png",
+              "pet_stage_prime_dog_dog_tail_wag_sit_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_dog_dog_tail_wag_sit_00.png",
+              "pet_stage_middle_aged_dog_dog_tail_wag_sit_01.png",
+              "pet_stage_middle_aged_dog_dog_tail_wag_sit_02.png",
+              "pet_stage_middle_aged_dog_dog_tail_wag_sit_03.png",
+              "pet_stage_middle_aged_dog_dog_tail_wag_sit_04.png",
+              "pet_stage_middle_aged_dog_dog_tail_wag_sit_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_dog_dog_tail_wag_sit_00.png",
+              "pet_stage_senior_dog_dog_tail_wag_sit_01.png",
+              "pet_stage_senior_dog_dog_tail_wag_sit_02.png",
+              "pet_stage_senior_dog_dog_tail_wag_sit_03.png",
+              "pet_stage_senior_dog_dog_tail_wag_sit_04.png",
+              "pet_stage_senior_dog_dog_tail_wag_sit_05.png"
+            ]
+          }
+        }
+      ]
+    },
+    "lamb": {
+      "speciesKey": "lamb",
+      "zhName": "小羊",
+      "enName": "Lamb",
+      "homeLabel": "云朵草原",
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "lamb_day.heic",
+      "nightRoom": "lamb_night.heic",
+      "roamingPrefix": "pet_lamb",
+      "slots": [
+        {
+          "id": "lamb_grass_graze",
+          "label": "草地进食",
+          "role": "EAT",
+          "anchor": [
+            0.53,
+            0.49
+          ],
+          "size": 0.22,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 38,
+          "restLike": false,
+          "allowedSatiety": [
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            4500,
+            4000,
+            3500,
+            4000,
+            3500,
+            4000,
+            4500,
+            4000,
+            3500
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_lamb_lamb_grass_graze_00.heic",
+            "pet_fixed_lamb_lamb_grass_graze_01.heic",
+            "pet_fixed_lamb_lamb_grass_graze_02.heic",
+            "pet_fixed_lamb_lamb_grass_graze_03.heic",
+            "pet_fixed_lamb_lamb_grass_graze_04.heic",
+            "pet_fixed_lamb_lamb_grass_graze_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_lamb_lamb_grass_graze_00.heic",
+            "pet_night_fixed_lamb_lamb_grass_graze_01.heic",
+            "pet_night_fixed_lamb_lamb_grass_graze_02.heic",
+            "pet_night_fixed_lamb_lamb_grass_graze_03.heic",
+            "pet_night_fixed_lamb_lamb_grass_graze_04.heic",
+            "pet_night_fixed_lamb_lamb_grass_graze_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_lamb_lamb_grass_graze.heic",
+          "nightCleanupPatch": "pet_night_stage_background_lamb_lamb_grass_graze.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_lamb_lamb_grass_graze_00.png",
+              "pet_stage_young_lamb_lamb_grass_graze_01.png",
+              "pet_stage_young_lamb_lamb_grass_graze_02.png",
+              "pet_stage_young_lamb_lamb_grass_graze_03.png",
+              "pet_stage_young_lamb_lamb_grass_graze_04.png",
+              "pet_stage_young_lamb_lamb_grass_graze_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_lamb_lamb_grass_graze_00.png",
+              "pet_stage_prime_lamb_lamb_grass_graze_01.png",
+              "pet_stage_prime_lamb_lamb_grass_graze_02.png",
+              "pet_stage_prime_lamb_lamb_grass_graze_03.png",
+              "pet_stage_prime_lamb_lamb_grass_graze_04.png",
+              "pet_stage_prime_lamb_lamb_grass_graze_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_lamb_lamb_grass_graze_00.png",
+              "pet_stage_middle_aged_lamb_lamb_grass_graze_01.png",
+              "pet_stage_middle_aged_lamb_lamb_grass_graze_02.png",
+              "pet_stage_middle_aged_lamb_lamb_grass_graze_03.png",
+              "pet_stage_middle_aged_lamb_lamb_grass_graze_04.png",
+              "pet_stage_middle_aged_lamb_lamb_grass_graze_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_lamb_lamb_grass_graze_00.png",
+              "pet_stage_senior_lamb_lamb_grass_graze_01.png",
+              "pet_stage_senior_lamb_lamb_grass_graze_02.png",
+              "pet_stage_senior_lamb_lamb_grass_graze_03.png",
+              "pet_stage_senior_lamb_lamb_grass_graze_04.png",
+              "pet_stage_senior_lamb_lamb_grass_graze_05.png"
+            ]
+          }
+        },
+        {
+          "id": "lamb_tree_watch",
+          "label": "树边观察",
+          "role": "WATCH",
+          "anchor": [
+            0.22,
+            0.31
+          ],
+          "size": 0.21,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 20,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7500,
+            8000,
+            6000,
+            5500,
+            6500,
+            5000,
+            6000,
+            7500
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_lamb_lamb_tree_watch_00.heic",
+            "pet_fixed_lamb_lamb_tree_watch_01.heic",
+            "pet_fixed_lamb_lamb_tree_watch_02.heic",
+            "pet_fixed_lamb_lamb_tree_watch_03.heic",
+            "pet_fixed_lamb_lamb_tree_watch_04.heic",
+            "pet_fixed_lamb_lamb_tree_watch_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_lamb_lamb_tree_watch_00.heic",
+            "pet_night_fixed_lamb_lamb_tree_watch_01.heic",
+            "pet_night_fixed_lamb_lamb_tree_watch_02.heic",
+            "pet_night_fixed_lamb_lamb_tree_watch_03.heic",
+            "pet_night_fixed_lamb_lamb_tree_watch_04.heic",
+            "pet_night_fixed_lamb_lamb_tree_watch_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_lamb_lamb_tree_watch.heic",
+          "nightCleanupPatch": "pet_night_stage_background_lamb_lamb_tree_watch.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_lamb_lamb_tree_watch_00.png",
+              "pet_stage_young_lamb_lamb_tree_watch_01.png",
+              "pet_stage_young_lamb_lamb_tree_watch_02.png",
+              "pet_stage_young_lamb_lamb_tree_watch_03.png",
+              "pet_stage_young_lamb_lamb_tree_watch_04.png",
+              "pet_stage_young_lamb_lamb_tree_watch_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_lamb_lamb_tree_watch_00.png",
+              "pet_stage_prime_lamb_lamb_tree_watch_01.png",
+              "pet_stage_prime_lamb_lamb_tree_watch_02.png",
+              "pet_stage_prime_lamb_lamb_tree_watch_03.png",
+              "pet_stage_prime_lamb_lamb_tree_watch_04.png",
+              "pet_stage_prime_lamb_lamb_tree_watch_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_lamb_lamb_tree_watch_00.png",
+              "pet_stage_middle_aged_lamb_lamb_tree_watch_01.png",
+              "pet_stage_middle_aged_lamb_lamb_tree_watch_02.png",
+              "pet_stage_middle_aged_lamb_lamb_tree_watch_03.png",
+              "pet_stage_middle_aged_lamb_lamb_tree_watch_04.png",
+              "pet_stage_middle_aged_lamb_lamb_tree_watch_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_lamb_lamb_tree_watch_00.png",
+              "pet_stage_senior_lamb_lamb_tree_watch_01.png",
+              "pet_stage_senior_lamb_lamb_tree_watch_02.png",
+              "pet_stage_senior_lamb_lamb_tree_watch_03.png",
+              "pet_stage_senior_lamb_lamb_tree_watch_04.png",
+              "pet_stage_senior_lamb_lamb_tree_watch_05.png"
+            ]
+          }
+        },
+        {
+          "id": "lamb_meadow_play",
+          "label": "草地玩耍",
+          "role": "PLAY",
+          "anchor": [
+            0.49,
+            0.58
+          ],
+          "size": 0.22,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 14,
+          "restLike": false,
+          "allowedSatiety": [
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            3500,
+            3000,
+            2500,
+            2200,
+            2400,
+            2800,
+            3000,
+            3500
+          ],
+          "representative": 3,
+          "infantDayFrames": [
+            "pet_fixed_lamb_lamb_meadow_play_00.heic",
+            "pet_fixed_lamb_lamb_meadow_play_01.heic",
+            "pet_fixed_lamb_lamb_meadow_play_02.heic",
+            "pet_fixed_lamb_lamb_meadow_play_03.heic",
+            "pet_fixed_lamb_lamb_meadow_play_04.heic",
+            "pet_fixed_lamb_lamb_meadow_play_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_lamb_lamb_meadow_play_00.heic",
+            "pet_night_fixed_lamb_lamb_meadow_play_01.heic",
+            "pet_night_fixed_lamb_lamb_meadow_play_02.heic",
+            "pet_night_fixed_lamb_lamb_meadow_play_03.heic",
+            "pet_night_fixed_lamb_lamb_meadow_play_04.heic",
+            "pet_night_fixed_lamb_lamb_meadow_play_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_lamb_lamb_meadow_play.heic",
+          "nightCleanupPatch": "pet_night_stage_background_lamb_lamb_meadow_play.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_lamb_lamb_meadow_play_00.png",
+              "pet_stage_young_lamb_lamb_meadow_play_01.png",
+              "pet_stage_young_lamb_lamb_meadow_play_02.png",
+              "pet_stage_young_lamb_lamb_meadow_play_03.png",
+              "pet_stage_young_lamb_lamb_meadow_play_04.png",
+              "pet_stage_young_lamb_lamb_meadow_play_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_lamb_lamb_meadow_play_00.png",
+              "pet_stage_prime_lamb_lamb_meadow_play_01.png",
+              "pet_stage_prime_lamb_lamb_meadow_play_02.png",
+              "pet_stage_prime_lamb_lamb_meadow_play_03.png",
+              "pet_stage_prime_lamb_lamb_meadow_play_04.png",
+              "pet_stage_prime_lamb_lamb_meadow_play_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_lamb_lamb_meadow_play_00.png",
+              "pet_stage_middle_aged_lamb_lamb_meadow_play_01.png",
+              "pet_stage_middle_aged_lamb_lamb_meadow_play_02.png",
+              "pet_stage_middle_aged_lamb_lamb_meadow_play_03.png",
+              "pet_stage_middle_aged_lamb_lamb_meadow_play_04.png",
+              "pet_stage_middle_aged_lamb_lamb_meadow_play_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_lamb_lamb_meadow_play_00.png",
+              "pet_stage_senior_lamb_lamb_meadow_play_01.png",
+              "pet_stage_senior_lamb_lamb_meadow_play_02.png",
+              "pet_stage_senior_lamb_lamb_meadow_play_03.png",
+              "pet_stage_senior_lamb_lamb_meadow_play_04.png",
+              "pet_stage_senior_lamb_lamb_meadow_play_05.png"
+            ]
+          }
+        },
+        {
+          "id": "lamb_cud_chew_idle",
+          "label": "原地反刍",
+          "role": "REST",
+          "anchor": [
+            0.48,
+            0.58
+          ],
+          "size": 0.22,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 30,
+          "restLike": true,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            6000,
+            4500,
+            4000,
+            4500,
+            5500,
+            6500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_lamb_lamb_cud_chew_idle_00.heic",
+            "pet_fixed_lamb_lamb_cud_chew_idle_01.heic",
+            "pet_fixed_lamb_lamb_cud_chew_idle_02.heic",
+            "pet_fixed_lamb_lamb_cud_chew_idle_03.heic",
+            "pet_fixed_lamb_lamb_cud_chew_idle_04.heic",
+            "pet_fixed_lamb_lamb_cud_chew_idle_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_lamb_lamb_cud_chew_idle_00.heic",
+            "pet_night_fixed_lamb_lamb_cud_chew_idle_01.heic",
+            "pet_night_fixed_lamb_lamb_cud_chew_idle_02.heic",
+            "pet_night_fixed_lamb_lamb_cud_chew_idle_03.heic",
+            "pet_night_fixed_lamb_lamb_cud_chew_idle_04.heic",
+            "pet_night_fixed_lamb_lamb_cud_chew_idle_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_lamb_lamb_cud_chew_idle.heic",
+          "nightCleanupPatch": "pet_night_stage_background_lamb_lamb_cud_chew_idle.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_lamb_lamb_cud_chew_idle_00.png",
+              "pet_stage_young_lamb_lamb_cud_chew_idle_01.png",
+              "pet_stage_young_lamb_lamb_cud_chew_idle_02.png",
+              "pet_stage_young_lamb_lamb_cud_chew_idle_03.png",
+              "pet_stage_young_lamb_lamb_cud_chew_idle_04.png",
+              "pet_stage_young_lamb_lamb_cud_chew_idle_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_lamb_lamb_cud_chew_idle_00.png",
+              "pet_stage_prime_lamb_lamb_cud_chew_idle_01.png",
+              "pet_stage_prime_lamb_lamb_cud_chew_idle_02.png",
+              "pet_stage_prime_lamb_lamb_cud_chew_idle_03.png",
+              "pet_stage_prime_lamb_lamb_cud_chew_idle_04.png",
+              "pet_stage_prime_lamb_lamb_cud_chew_idle_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_lamb_lamb_cud_chew_idle_00.png",
+              "pet_stage_middle_aged_lamb_lamb_cud_chew_idle_01.png",
+              "pet_stage_middle_aged_lamb_lamb_cud_chew_idle_02.png",
+              "pet_stage_middle_aged_lamb_lamb_cud_chew_idle_03.png",
+              "pet_stage_middle_aged_lamb_lamb_cud_chew_idle_04.png",
+              "pet_stage_middle_aged_lamb_lamb_cud_chew_idle_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_lamb_lamb_cud_chew_idle_00.png",
+              "pet_stage_senior_lamb_lamb_cud_chew_idle_01.png",
+              "pet_stage_senior_lamb_lamb_cud_chew_idle_02.png",
+              "pet_stage_senior_lamb_lamb_cud_chew_idle_03.png",
+              "pet_stage_senior_lamb_lamb_cud_chew_idle_04.png",
+              "pet_stage_senior_lamb_lamb_cud_chew_idle_05.png"
+            ]
+          }
+        },
+        {
+          "id": "lamb_wool_shake_idle",
+          "label": "轻抖羊毛",
+          "role": "WATCH",
+          "anchor": [
+            0.64,
+            0.66
+          ],
+          "size": 0.22,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 18,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            6000,
+            3000,
+            2200,
+            2400,
+            3500,
+            6500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_lamb_lamb_wool_shake_idle_00.heic",
+            "pet_fixed_lamb_lamb_wool_shake_idle_01.heic",
+            "pet_fixed_lamb_lamb_wool_shake_idle_02.heic",
+            "pet_fixed_lamb_lamb_wool_shake_idle_03.heic",
+            "pet_fixed_lamb_lamb_wool_shake_idle_04.heic",
+            "pet_fixed_lamb_lamb_wool_shake_idle_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_lamb_lamb_wool_shake_idle_00.heic",
+            "pet_night_fixed_lamb_lamb_wool_shake_idle_01.heic",
+            "pet_night_fixed_lamb_lamb_wool_shake_idle_02.heic",
+            "pet_night_fixed_lamb_lamb_wool_shake_idle_03.heic",
+            "pet_night_fixed_lamb_lamb_wool_shake_idle_04.heic",
+            "pet_night_fixed_lamb_lamb_wool_shake_idle_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_lamb_lamb_wool_shake_idle.heic",
+          "nightCleanupPatch": "pet_night_stage_background_lamb_lamb_wool_shake_idle.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_lamb_lamb_wool_shake_idle_00.png",
+              "pet_stage_young_lamb_lamb_wool_shake_idle_01.png",
+              "pet_stage_young_lamb_lamb_wool_shake_idle_02.png",
+              "pet_stage_young_lamb_lamb_wool_shake_idle_03.png",
+              "pet_stage_young_lamb_lamb_wool_shake_idle_04.png",
+              "pet_stage_young_lamb_lamb_wool_shake_idle_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_lamb_lamb_wool_shake_idle_00.png",
+              "pet_stage_prime_lamb_lamb_wool_shake_idle_01.png",
+              "pet_stage_prime_lamb_lamb_wool_shake_idle_02.png",
+              "pet_stage_prime_lamb_lamb_wool_shake_idle_03.png",
+              "pet_stage_prime_lamb_lamb_wool_shake_idle_04.png",
+              "pet_stage_prime_lamb_lamb_wool_shake_idle_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_lamb_lamb_wool_shake_idle_00.png",
+              "pet_stage_middle_aged_lamb_lamb_wool_shake_idle_01.png",
+              "pet_stage_middle_aged_lamb_lamb_wool_shake_idle_02.png",
+              "pet_stage_middle_aged_lamb_lamb_wool_shake_idle_03.png",
+              "pet_stage_middle_aged_lamb_lamb_wool_shake_idle_04.png",
+              "pet_stage_middle_aged_lamb_lamb_wool_shake_idle_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_lamb_lamb_wool_shake_idle_00.png",
+              "pet_stage_senior_lamb_lamb_wool_shake_idle_01.png",
+              "pet_stage_senior_lamb_lamb_wool_shake_idle_02.png",
+              "pet_stage_senior_lamb_lamb_wool_shake_idle_03.png",
+              "pet_stage_senior_lamb_lamb_wool_shake_idle_04.png",
+              "pet_stage_senior_lamb_lamb_wool_shake_idle_05.png"
+            ]
+          }
+        }
+      ]
+    },
+    "fish": {
+      "speciesKey": "fish",
+      "zhName": "小鱼",
+      "enName": "Fish",
+      "homeLabel": "浅海栖息地",
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "fish_day.heic",
+      "nightRoom": "fish_night.heic",
+      "roamingPrefix": "pet_fish",
+      "slots": [
+        {
+          "id": "fish_sand_rest",
+          "label": "沙地休息",
+          "role": "REST",
+          "anchor": [
+            0.5,
+            0.7
+          ],
+          "size": 0.19,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 34,
+          "restLike": true,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4
+          ],
+          "frameDurationsMs": [
+            9000,
+            10000,
+            11000,
+            12000,
+            11000,
+            9000,
+            8500,
+            9500,
+            10000
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_fish_fish_sand_rest_00.heic",
+            "pet_fixed_fish_fish_sand_rest_01.heic",
+            "pet_fixed_fish_fish_sand_rest_02.heic",
+            "pet_fixed_fish_fish_sand_rest_03.heic",
+            "pet_fixed_fish_fish_sand_rest_04.heic",
+            "pet_fixed_fish_fish_sand_rest_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_fish_fish_sand_rest_00.heic",
+            "pet_night_fixed_fish_fish_sand_rest_01.heic",
+            "pet_night_fixed_fish_fish_sand_rest_02.heic",
+            "pet_night_fixed_fish_fish_sand_rest_03.heic",
+            "pet_night_fixed_fish_fish_sand_rest_04.heic",
+            "pet_night_fixed_fish_fish_sand_rest_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_fish_fish_sand_rest.heic",
+          "nightCleanupPatch": "pet_night_stage_background_fish_fish_sand_rest.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_fish_fish_sand_rest_00.png",
+              "pet_stage_young_fish_fish_sand_rest_01.png",
+              "pet_stage_young_fish_fish_sand_rest_02.png",
+              "pet_stage_young_fish_fish_sand_rest_03.png",
+              "pet_stage_young_fish_fish_sand_rest_04.png",
+              "pet_stage_young_fish_fish_sand_rest_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_fish_fish_sand_rest_00.png",
+              "pet_stage_prime_fish_fish_sand_rest_01.png",
+              "pet_stage_prime_fish_fish_sand_rest_02.png",
+              "pet_stage_prime_fish_fish_sand_rest_03.png",
+              "pet_stage_prime_fish_fish_sand_rest_04.png",
+              "pet_stage_prime_fish_fish_sand_rest_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_fish_fish_sand_rest_00.png",
+              "pet_stage_middle_aged_fish_fish_sand_rest_01.png",
+              "pet_stage_middle_aged_fish_fish_sand_rest_02.png",
+              "pet_stage_middle_aged_fish_fish_sand_rest_03.png",
+              "pet_stage_middle_aged_fish_fish_sand_rest_04.png",
+              "pet_stage_middle_aged_fish_fish_sand_rest_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_fish_fish_sand_rest_00.png",
+              "pet_stage_senior_fish_fish_sand_rest_01.png",
+              "pet_stage_senior_fish_fish_sand_rest_02.png",
+              "pet_stage_senior_fish_fish_sand_rest_03.png",
+              "pet_stage_senior_fish_fish_sand_rest_04.png",
+              "pet_stage_senior_fish_fish_sand_rest_05.png"
+            ]
+          }
+        },
+        {
+          "id": "fish_plankton_eat",
+          "label": "浮游进食",
+          "role": "EAT",
+          "anchor": [
+            0.49,
+            0.19
+          ],
+          "size": 0.19,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 26,
+          "restLike": false,
+          "allowedSatiety": [
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            4500,
+            4000,
+            3500,
+            3000,
+            3500,
+            4000,
+            4500,
+            4000
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_fish_fish_plankton_eat_00.heic",
+            "pet_fixed_fish_fish_plankton_eat_01.heic",
+            "pet_fixed_fish_fish_plankton_eat_02.heic",
+            "pet_fixed_fish_fish_plankton_eat_03.heic",
+            "pet_fixed_fish_fish_plankton_eat_04.heic",
+            "pet_fixed_fish_fish_plankton_eat_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_fish_fish_plankton_eat_00.heic",
+            "pet_night_fixed_fish_fish_plankton_eat_01.heic",
+            "pet_night_fixed_fish_fish_plankton_eat_02.heic",
+            "pet_night_fixed_fish_fish_plankton_eat_03.heic",
+            "pet_night_fixed_fish_fish_plankton_eat_04.heic",
+            "pet_night_fixed_fish_fish_plankton_eat_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_fish_fish_plankton_eat.heic",
+          "nightCleanupPatch": "pet_night_stage_background_fish_fish_plankton_eat.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_fish_fish_plankton_eat_00.png",
+              "pet_stage_young_fish_fish_plankton_eat_01.png",
+              "pet_stage_young_fish_fish_plankton_eat_02.png",
+              "pet_stage_young_fish_fish_plankton_eat_03.png",
+              "pet_stage_young_fish_fish_plankton_eat_04.png",
+              "pet_stage_young_fish_fish_plankton_eat_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_fish_fish_plankton_eat_00.png",
+              "pet_stage_prime_fish_fish_plankton_eat_01.png",
+              "pet_stage_prime_fish_fish_plankton_eat_02.png",
+              "pet_stage_prime_fish_fish_plankton_eat_03.png",
+              "pet_stage_prime_fish_fish_plankton_eat_04.png",
+              "pet_stage_prime_fish_fish_plankton_eat_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_fish_fish_plankton_eat_00.png",
+              "pet_stage_middle_aged_fish_fish_plankton_eat_01.png",
+              "pet_stage_middle_aged_fish_fish_plankton_eat_02.png",
+              "pet_stage_middle_aged_fish_fish_plankton_eat_03.png",
+              "pet_stage_middle_aged_fish_fish_plankton_eat_04.png",
+              "pet_stage_middle_aged_fish_fish_plankton_eat_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_fish_fish_plankton_eat_00.png",
+              "pet_stage_senior_fish_fish_plankton_eat_01.png",
+              "pet_stage_senior_fish_fish_plankton_eat_02.png",
+              "pet_stage_senior_fish_fish_plankton_eat_03.png",
+              "pet_stage_senior_fish_fish_plankton_eat_04.png",
+              "pet_stage_senior_fish_fish_plankton_eat_05.png"
+            ]
+          }
+        },
+        {
+          "id": "fish_bubbles_play",
+          "label": "追泡泡",
+          "role": "PLAY",
+          "anchor": [
+            0.3,
+            0.57
+          ],
+          "size": 0.2,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 24,
+          "restLike": false,
+          "allowedSatiety": [
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            3500,
+            3000,
+            2500,
+            2200,
+            2400,
+            2800,
+            3200,
+            3500
+          ],
+          "representative": 3,
+          "infantDayFrames": [
+            "pet_fixed_fish_fish_bubbles_play_00.heic",
+            "pet_fixed_fish_fish_bubbles_play_01.heic",
+            "pet_fixed_fish_fish_bubbles_play_02.heic",
+            "pet_fixed_fish_fish_bubbles_play_03.heic",
+            "pet_fixed_fish_fish_bubbles_play_04.heic",
+            "pet_fixed_fish_fish_bubbles_play_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_fish_fish_bubbles_play_00.heic",
+            "pet_night_fixed_fish_fish_bubbles_play_01.heic",
+            "pet_night_fixed_fish_fish_bubbles_play_02.heic",
+            "pet_night_fixed_fish_fish_bubbles_play_03.heic",
+            "pet_night_fixed_fish_fish_bubbles_play_04.heic",
+            "pet_night_fixed_fish_fish_bubbles_play_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_fish_fish_bubbles_play.heic",
+          "nightCleanupPatch": "pet_night_stage_background_fish_fish_bubbles_play.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_fish_fish_bubbles_play_00.png",
+              "pet_stage_young_fish_fish_bubbles_play_01.png",
+              "pet_stage_young_fish_fish_bubbles_play_02.png",
+              "pet_stage_young_fish_fish_bubbles_play_03.png",
+              "pet_stage_young_fish_fish_bubbles_play_04.png",
+              "pet_stage_young_fish_fish_bubbles_play_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_fish_fish_bubbles_play_00.png",
+              "pet_stage_prime_fish_fish_bubbles_play_01.png",
+              "pet_stage_prime_fish_fish_bubbles_play_02.png",
+              "pet_stage_prime_fish_fish_bubbles_play_03.png",
+              "pet_stage_prime_fish_fish_bubbles_play_04.png",
+              "pet_stage_prime_fish_fish_bubbles_play_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_fish_fish_bubbles_play_00.png",
+              "pet_stage_middle_aged_fish_fish_bubbles_play_01.png",
+              "pet_stage_middle_aged_fish_fish_bubbles_play_02.png",
+              "pet_stage_middle_aged_fish_fish_bubbles_play_03.png",
+              "pet_stage_middle_aged_fish_fish_bubbles_play_04.png",
+              "pet_stage_middle_aged_fish_fish_bubbles_play_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_fish_fish_bubbles_play_00.png",
+              "pet_stage_senior_fish_fish_bubbles_play_01.png",
+              "pet_stage_senior_fish_fish_bubbles_play_02.png",
+              "pet_stage_senior_fish_fish_bubbles_play_03.png",
+              "pet_stage_senior_fish_fish_bubbles_play_04.png",
+              "pet_stage_senior_fish_fish_bubbles_play_05.png"
+            ]
+          }
+        },
+        {
+          "id": "fish_arch_watch",
+          "label": "拱门观察",
+          "role": "WATCH",
+          "anchor": [
+            0.7,
+            0.31
+          ],
+          "size": 0.19,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 22,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            8000,
+            7500,
+            6000,
+            5500,
+            6500,
+            5000,
+            6000,
+            7500
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_fish_fish_arch_watch_00.heic",
+            "pet_fixed_fish_fish_arch_watch_01.heic",
+            "pet_fixed_fish_fish_arch_watch_02.heic",
+            "pet_fixed_fish_fish_arch_watch_03.heic",
+            "pet_fixed_fish_fish_arch_watch_04.heic",
+            "pet_fixed_fish_fish_arch_watch_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_fish_fish_arch_watch_00.heic",
+            "pet_night_fixed_fish_fish_arch_watch_01.heic",
+            "pet_night_fixed_fish_fish_arch_watch_02.heic",
+            "pet_night_fixed_fish_fish_arch_watch_03.heic",
+            "pet_night_fixed_fish_fish_arch_watch_04.heic",
+            "pet_night_fixed_fish_fish_arch_watch_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_fish_fish_arch_watch.heic",
+          "nightCleanupPatch": "pet_night_stage_background_fish_fish_arch_watch.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_fish_fish_arch_watch_00.png",
+              "pet_stage_young_fish_fish_arch_watch_01.png",
+              "pet_stage_young_fish_fish_arch_watch_02.png",
+              "pet_stage_young_fish_fish_arch_watch_03.png",
+              "pet_stage_young_fish_fish_arch_watch_04.png",
+              "pet_stage_young_fish_fish_arch_watch_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_fish_fish_arch_watch_00.png",
+              "pet_stage_prime_fish_fish_arch_watch_01.png",
+              "pet_stage_prime_fish_fish_arch_watch_02.png",
+              "pet_stage_prime_fish_fish_arch_watch_03.png",
+              "pet_stage_prime_fish_fish_arch_watch_04.png",
+              "pet_stage_prime_fish_fish_arch_watch_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_fish_fish_arch_watch_00.png",
+              "pet_stage_middle_aged_fish_fish_arch_watch_01.png",
+              "pet_stage_middle_aged_fish_fish_arch_watch_02.png",
+              "pet_stage_middle_aged_fish_fish_arch_watch_03.png",
+              "pet_stage_middle_aged_fish_fish_arch_watch_04.png",
+              "pet_stage_middle_aged_fish_fish_arch_watch_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_fish_fish_arch_watch_00.png",
+              "pet_stage_senior_fish_fish_arch_watch_01.png",
+              "pet_stage_senior_fish_fish_arch_watch_02.png",
+              "pet_stage_senior_fish_fish_arch_watch_03.png",
+              "pet_stage_senior_fish_fish_arch_watch_04.png",
+              "pet_stage_senior_fish_fish_arch_watch_05.png"
+            ]
+          }
+        },
+        {
+          "id": "fish_coral_hide",
+          "label": "珊瑚躲藏",
+          "role": "HIDE",
+          "anchor": [
+            0.79,
+            0.54
+          ],
+          "size": 0.19,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 32,
+          "restLike": true,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4
+          ],
+          "frameDurationsMs": [
+            9000,
+            10000,
+            11000,
+            12000,
+            11000,
+            9000,
+            8500,
+            9500,
+            10500
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_fish_fish_coral_hide_00.heic",
+            "pet_fixed_fish_fish_coral_hide_01.heic",
+            "pet_fixed_fish_fish_coral_hide_02.heic",
+            "pet_fixed_fish_fish_coral_hide_03.heic",
+            "pet_fixed_fish_fish_coral_hide_04.heic",
+            "pet_fixed_fish_fish_coral_hide_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_fish_fish_coral_hide_00.heic",
+            "pet_night_fixed_fish_fish_coral_hide_01.heic",
+            "pet_night_fixed_fish_fish_coral_hide_02.heic",
+            "pet_night_fixed_fish_fish_coral_hide_03.heic",
+            "pet_night_fixed_fish_fish_coral_hide_04.heic",
+            "pet_night_fixed_fish_fish_coral_hide_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_fish_fish_coral_hide.heic",
+          "nightCleanupPatch": "pet_night_stage_background_fish_fish_coral_hide.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_fish_fish_coral_hide_00.png",
+              "pet_stage_young_fish_fish_coral_hide_01.png",
+              "pet_stage_young_fish_fish_coral_hide_02.png",
+              "pet_stage_young_fish_fish_coral_hide_03.png",
+              "pet_stage_young_fish_fish_coral_hide_04.png",
+              "pet_stage_young_fish_fish_coral_hide_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_fish_fish_coral_hide_00.png",
+              "pet_stage_prime_fish_fish_coral_hide_01.png",
+              "pet_stage_prime_fish_fish_coral_hide_02.png",
+              "pet_stage_prime_fish_fish_coral_hide_03.png",
+              "pet_stage_prime_fish_fish_coral_hide_04.png",
+              "pet_stage_prime_fish_fish_coral_hide_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_fish_fish_coral_hide_00.png",
+              "pet_stage_middle_aged_fish_fish_coral_hide_01.png",
+              "pet_stage_middle_aged_fish_fish_coral_hide_02.png",
+              "pet_stage_middle_aged_fish_fish_coral_hide_03.png",
+              "pet_stage_middle_aged_fish_fish_coral_hide_04.png",
+              "pet_stage_middle_aged_fish_fish_coral_hide_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_fish_fish_coral_hide_00.png",
+              "pet_stage_senior_fish_fish_coral_hide_01.png",
+              "pet_stage_senior_fish_fish_coral_hide_02.png",
+              "pet_stage_senior_fish_fish_coral_hide_03.png",
+              "pet_stage_senior_fish_fish_coral_hide_04.png",
+              "pet_stage_senior_fish_fish_coral_hide_05.png"
+            ]
+          }
+        }
+      ]
+    },
+    "calf": {
+      "speciesKey": "calf",
+      "zhName": "小牛",
+      "enName": "Calf",
+      "homeLabel": "暖阳牛棚",
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "calf_day.heic",
+      "nightRoom": "calf_night.heic",
+      "roamingPrefix": "pet_calf",
+      "slots": [
+        {
+          "id": "calf_yard_play",
+          "label": "院中玩耍",
+          "role": "PLAY",
+          "anchor": [
+            0.55,
+            0.51
+          ],
+          "size": 0.26,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 12,
+          "restLike": false,
+          "allowedSatiety": [
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            3500,
+            3000,
+            2500,
+            2200,
+            2400,
+            2800,
+            3200,
+            3600
+          ],
+          "representative": 3,
+          "infantDayFrames": [
+            "pet_fixed_calf_calf_yard_play_00.heic",
+            "pet_fixed_calf_calf_yard_play_01.heic",
+            "pet_fixed_calf_calf_yard_play_02.heic",
+            "pet_fixed_calf_calf_yard_play_03.heic",
+            "pet_fixed_calf_calf_yard_play_04.heic",
+            "pet_fixed_calf_calf_yard_play_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_calf_calf_yard_play_00.heic",
+            "pet_night_fixed_calf_calf_yard_play_01.heic",
+            "pet_night_fixed_calf_calf_yard_play_02.heic",
+            "pet_night_fixed_calf_calf_yard_play_03.heic",
+            "pet_night_fixed_calf_calf_yard_play_04.heic",
+            "pet_night_fixed_calf_calf_yard_play_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_calf_calf_yard_play.heic",
+          "nightCleanupPatch": "pet_night_stage_background_calf_calf_yard_play.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_calf_calf_yard_play_00.png",
+              "pet_stage_young_calf_calf_yard_play_01.png",
+              "pet_stage_young_calf_calf_yard_play_02.png",
+              "pet_stage_young_calf_calf_yard_play_03.png",
+              "pet_stage_young_calf_calf_yard_play_04.png",
+              "pet_stage_young_calf_calf_yard_play_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_calf_calf_yard_play_00.png",
+              "pet_stage_prime_calf_calf_yard_play_01.png",
+              "pet_stage_prime_calf_calf_yard_play_02.png",
+              "pet_stage_prime_calf_calf_yard_play_03.png",
+              "pet_stage_prime_calf_calf_yard_play_04.png",
+              "pet_stage_prime_calf_calf_yard_play_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_calf_calf_yard_play_00.png",
+              "pet_stage_middle_aged_calf_calf_yard_play_01.png",
+              "pet_stage_middle_aged_calf_calf_yard_play_02.png",
+              "pet_stage_middle_aged_calf_calf_yard_play_03.png",
+              "pet_stage_middle_aged_calf_calf_yard_play_04.png",
+              "pet_stage_middle_aged_calf_calf_yard_play_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_calf_calf_yard_play_00.png",
+              "pet_stage_senior_calf_calf_yard_play_01.png",
+              "pet_stage_senior_calf_calf_yard_play_02.png",
+              "pet_stage_senior_calf_calf_yard_play_03.png",
+              "pet_stage_senior_calf_calf_yard_play_04.png",
+              "pet_stage_senior_calf_calf_yard_play_05.png"
+            ]
+          }
+        },
+        {
+          "id": "calf_door_watch",
+          "label": "门边观察",
+          "role": "WATCH",
+          "anchor": [
+            0.63,
+            0.8
+          ],
+          "size": 0.25,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 16,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            8000,
+            7500,
+            6500,
+            6000,
+            7000,
+            5500,
+            6500,
+            8000
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_calf_calf_door_watch_00.heic",
+            "pet_fixed_calf_calf_door_watch_01.heic",
+            "pet_fixed_calf_calf_door_watch_02.heic",
+            "pet_fixed_calf_calf_door_watch_03.heic",
+            "pet_fixed_calf_calf_door_watch_04.heic",
+            "pet_fixed_calf_calf_door_watch_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_calf_calf_door_watch_00.heic",
+            "pet_night_fixed_calf_calf_door_watch_01.heic",
+            "pet_night_fixed_calf_calf_door_watch_02.heic",
+            "pet_night_fixed_calf_calf_door_watch_03.heic",
+            "pet_night_fixed_calf_calf_door_watch_04.heic",
+            "pet_night_fixed_calf_calf_door_watch_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_calf_calf_door_watch.heic",
+          "nightCleanupPatch": "pet_night_stage_background_calf_calf_door_watch.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_calf_calf_door_watch_00.png",
+              "pet_stage_young_calf_calf_door_watch_01.png",
+              "pet_stage_young_calf_calf_door_watch_02.png",
+              "pet_stage_young_calf_calf_door_watch_03.png",
+              "pet_stage_young_calf_calf_door_watch_04.png",
+              "pet_stage_young_calf_calf_door_watch_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_calf_calf_door_watch_00.png",
+              "pet_stage_prime_calf_calf_door_watch_01.png",
+              "pet_stage_prime_calf_calf_door_watch_02.png",
+              "pet_stage_prime_calf_calf_door_watch_03.png",
+              "pet_stage_prime_calf_calf_door_watch_04.png",
+              "pet_stage_prime_calf_calf_door_watch_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_calf_calf_door_watch_00.png",
+              "pet_stage_middle_aged_calf_calf_door_watch_01.png",
+              "pet_stage_middle_aged_calf_calf_door_watch_02.png",
+              "pet_stage_middle_aged_calf_calf_door_watch_03.png",
+              "pet_stage_middle_aged_calf_calf_door_watch_04.png",
+              "pet_stage_middle_aged_calf_calf_door_watch_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_calf_calf_door_watch_00.png",
+              "pet_stage_senior_calf_calf_door_watch_01.png",
+              "pet_stage_senior_calf_calf_door_watch_02.png",
+              "pet_stage_senior_calf_calf_door_watch_03.png",
+              "pet_stage_senior_calf_calf_door_watch_04.png",
+              "pet_stage_senior_calf_calf_door_watch_05.png"
+            ]
+          }
+        },
+        {
+          "id": "calf_cud_chew_idle",
+          "label": "原地反刍",
+          "role": "REST",
+          "anchor": [
+            0.49,
+            0.47
+          ],
+          "size": 0.26,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 26,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            6500,
+            5000,
+            4500,
+            5000,
+            6000,
+            7000
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_calf_calf_cud_chew_idle_00.heic",
+            "pet_fixed_calf_calf_cud_chew_idle_01.heic",
+            "pet_fixed_calf_calf_cud_chew_idle_02.heic",
+            "pet_fixed_calf_calf_cud_chew_idle_03.heic",
+            "pet_fixed_calf_calf_cud_chew_idle_04.heic",
+            "pet_fixed_calf_calf_cud_chew_idle_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_calf_calf_cud_chew_idle_00.heic",
+            "pet_night_fixed_calf_calf_cud_chew_idle_01.heic",
+            "pet_night_fixed_calf_calf_cud_chew_idle_02.heic",
+            "pet_night_fixed_calf_calf_cud_chew_idle_03.heic",
+            "pet_night_fixed_calf_calf_cud_chew_idle_04.heic",
+            "pet_night_fixed_calf_calf_cud_chew_idle_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_calf_calf_cud_chew_idle.heic",
+          "nightCleanupPatch": "pet_night_stage_background_calf_calf_cud_chew_idle.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_calf_calf_cud_chew_idle_00.png",
+              "pet_stage_young_calf_calf_cud_chew_idle_01.png",
+              "pet_stage_young_calf_calf_cud_chew_idle_02.png",
+              "pet_stage_young_calf_calf_cud_chew_idle_03.png",
+              "pet_stage_young_calf_calf_cud_chew_idle_04.png",
+              "pet_stage_young_calf_calf_cud_chew_idle_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_calf_calf_cud_chew_idle_00.png",
+              "pet_stage_prime_calf_calf_cud_chew_idle_01.png",
+              "pet_stage_prime_calf_calf_cud_chew_idle_02.png",
+              "pet_stage_prime_calf_calf_cud_chew_idle_03.png",
+              "pet_stage_prime_calf_calf_cud_chew_idle_04.png",
+              "pet_stage_prime_calf_calf_cud_chew_idle_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_calf_calf_cud_chew_idle_00.png",
+              "pet_stage_middle_aged_calf_calf_cud_chew_idle_01.png",
+              "pet_stage_middle_aged_calf_calf_cud_chew_idle_02.png",
+              "pet_stage_middle_aged_calf_calf_cud_chew_idle_03.png",
+              "pet_stage_middle_aged_calf_calf_cud_chew_idle_04.png",
+              "pet_stage_middle_aged_calf_calf_cud_chew_idle_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_calf_calf_cud_chew_idle_00.png",
+              "pet_stage_senior_calf_calf_cud_chew_idle_01.png",
+              "pet_stage_senior_calf_calf_cud_chew_idle_02.png",
+              "pet_stage_senior_calf_calf_cud_chew_idle_03.png",
+              "pet_stage_senior_calf_calf_cud_chew_idle_04.png",
+              "pet_stage_senior_calf_calf_cud_chew_idle_05.png"
+            ]
+          }
+        },
+        {
+          "id": "calf_ear_twitch_idle",
+          "label": "耳朵轻动",
+          "role": "WATCH",
+          "anchor": [
+            0.69,
+            0.6
+          ],
+          "size": 0.25,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 18,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7000,
+            5000,
+            2500,
+            3000,
+            5000,
+            7500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_calf_calf_ear_twitch_idle_00.heic",
+            "pet_fixed_calf_calf_ear_twitch_idle_01.heic",
+            "pet_fixed_calf_calf_ear_twitch_idle_02.heic",
+            "pet_fixed_calf_calf_ear_twitch_idle_03.heic",
+            "pet_fixed_calf_calf_ear_twitch_idle_04.heic",
+            "pet_fixed_calf_calf_ear_twitch_idle_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_calf_calf_ear_twitch_idle_00.heic",
+            "pet_night_fixed_calf_calf_ear_twitch_idle_01.heic",
+            "pet_night_fixed_calf_calf_ear_twitch_idle_02.heic",
+            "pet_night_fixed_calf_calf_ear_twitch_idle_03.heic",
+            "pet_night_fixed_calf_calf_ear_twitch_idle_04.heic",
+            "pet_night_fixed_calf_calf_ear_twitch_idle_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_calf_calf_ear_twitch_idle.heic",
+          "nightCleanupPatch": "pet_night_stage_background_calf_calf_ear_twitch_idle.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_calf_calf_ear_twitch_idle_00.png",
+              "pet_stage_young_calf_calf_ear_twitch_idle_01.png",
+              "pet_stage_young_calf_calf_ear_twitch_idle_02.png",
+              "pet_stage_young_calf_calf_ear_twitch_idle_03.png",
+              "pet_stage_young_calf_calf_ear_twitch_idle_04.png",
+              "pet_stage_young_calf_calf_ear_twitch_idle_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_calf_calf_ear_twitch_idle_00.png",
+              "pet_stage_prime_calf_calf_ear_twitch_idle_01.png",
+              "pet_stage_prime_calf_calf_ear_twitch_idle_02.png",
+              "pet_stage_prime_calf_calf_ear_twitch_idle_03.png",
+              "pet_stage_prime_calf_calf_ear_twitch_idle_04.png",
+              "pet_stage_prime_calf_calf_ear_twitch_idle_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_calf_calf_ear_twitch_idle_00.png",
+              "pet_stage_middle_aged_calf_calf_ear_twitch_idle_01.png",
+              "pet_stage_middle_aged_calf_calf_ear_twitch_idle_02.png",
+              "pet_stage_middle_aged_calf_calf_ear_twitch_idle_03.png",
+              "pet_stage_middle_aged_calf_calf_ear_twitch_idle_04.png",
+              "pet_stage_middle_aged_calf_calf_ear_twitch_idle_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_calf_calf_ear_twitch_idle_00.png",
+              "pet_stage_senior_calf_calf_ear_twitch_idle_01.png",
+              "pet_stage_senior_calf_calf_ear_twitch_idle_02.png",
+              "pet_stage_senior_calf_calf_ear_twitch_idle_03.png",
+              "pet_stage_senior_calf_calf_ear_twitch_idle_04.png",
+              "pet_stage_senior_calf_calf_ear_twitch_idle_05.png"
+            ]
+          }
+        },
+        {
+          "id": "calf_lie_rest",
+          "label": "卧姿休息",
+          "role": "REST",
+          "anchor": [
+            0.34,
+            0.68
+          ],
+          "size": 0.27,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 36,
+          "restLike": true,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            10000,
+            11000,
+            12000,
+            11000,
+            10000,
+            9000
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_calf_calf_lie_rest_00.heic",
+            "pet_fixed_calf_calf_lie_rest_01.heic",
+            "pet_fixed_calf_calf_lie_rest_02.heic",
+            "pet_fixed_calf_calf_lie_rest_03.heic",
+            "pet_fixed_calf_calf_lie_rest_04.heic",
+            "pet_fixed_calf_calf_lie_rest_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_calf_calf_lie_rest_00.heic",
+            "pet_night_fixed_calf_calf_lie_rest_01.heic",
+            "pet_night_fixed_calf_calf_lie_rest_02.heic",
+            "pet_night_fixed_calf_calf_lie_rest_03.heic",
+            "pet_night_fixed_calf_calf_lie_rest_04.heic",
+            "pet_night_fixed_calf_calf_lie_rest_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_calf_calf_lie_rest.heic",
+          "nightCleanupPatch": "pet_night_stage_background_calf_calf_lie_rest.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_calf_calf_lie_rest_00.png",
+              "pet_stage_young_calf_calf_lie_rest_01.png",
+              "pet_stage_young_calf_calf_lie_rest_02.png",
+              "pet_stage_young_calf_calf_lie_rest_03.png",
+              "pet_stage_young_calf_calf_lie_rest_04.png",
+              "pet_stage_young_calf_calf_lie_rest_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_calf_calf_lie_rest_00.png",
+              "pet_stage_prime_calf_calf_lie_rest_01.png",
+              "pet_stage_prime_calf_calf_lie_rest_02.png",
+              "pet_stage_prime_calf_calf_lie_rest_03.png",
+              "pet_stage_prime_calf_calf_lie_rest_04.png",
+              "pet_stage_prime_calf_calf_lie_rest_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_calf_calf_lie_rest_00.png",
+              "pet_stage_middle_aged_calf_calf_lie_rest_01.png",
+              "pet_stage_middle_aged_calf_calf_lie_rest_02.png",
+              "pet_stage_middle_aged_calf_calf_lie_rest_03.png",
+              "pet_stage_middle_aged_calf_calf_lie_rest_04.png",
+              "pet_stage_middle_aged_calf_calf_lie_rest_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_calf_calf_lie_rest_00.png",
+              "pet_stage_senior_calf_calf_lie_rest_01.png",
+              "pet_stage_senior_calf_calf_lie_rest_02.png",
+              "pet_stage_senior_calf_calf_lie_rest_03.png",
+              "pet_stage_senior_calf_calf_lie_rest_04.png",
+              "pet_stage_senior_calf_calf_lie_rest_05.png"
+            ]
+          }
+        }
+      ]
+    },
+    "horse": {
+      "speciesKey": "horse",
+      "zhName": "小马",
+      "enName": "Horse",
+      "homeLabel": "风里马场",
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "horse_day.heic",
+      "nightRoom": "horse_night.heic",
+      "roamingPrefix": "pet_horse",
+      "slots": [
+        {
+          "id": "horse_track_run",
+          "label": "定点奔跑",
+          "role": "PLAY",
+          "anchor": [
+            0.52,
+            0.58
+          ],
+          "size": 0.3,
+          "canvas": [
+            320,
+            320
+          ],
+          "baseWeight": 28,
+          "restLike": false,
+          "allowedSatiety": [
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            3000,
+            2500,
+            2200,
+            2400,
+            2600,
+            3200
+          ],
+          "representative": 3,
+          "infantDayFrames": [
+            "pet_fixed_horse_horse_track_run_00.heic",
+            "pet_fixed_horse_horse_track_run_01.heic",
+            "pet_fixed_horse_horse_track_run_02.heic",
+            "pet_fixed_horse_horse_track_run_03.heic",
+            "pet_fixed_horse_horse_track_run_04.heic",
+            "pet_fixed_horse_horse_track_run_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_horse_horse_track_run_00.heic",
+            "pet_night_fixed_horse_horse_track_run_01.heic",
+            "pet_night_fixed_horse_horse_track_run_02.heic",
+            "pet_night_fixed_horse_horse_track_run_03.heic",
+            "pet_night_fixed_horse_horse_track_run_04.heic",
+            "pet_night_fixed_horse_horse_track_run_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_horse_horse_track_run.heic",
+          "nightCleanupPatch": "pet_night_stage_background_horse_horse_track_run.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_horse_horse_track_run_00.png",
+              "pet_stage_young_horse_horse_track_run_01.png",
+              "pet_stage_young_horse_horse_track_run_02.png",
+              "pet_stage_young_horse_horse_track_run_03.png",
+              "pet_stage_young_horse_horse_track_run_04.png",
+              "pet_stage_young_horse_horse_track_run_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_horse_horse_track_run_00.png",
+              "pet_stage_prime_horse_horse_track_run_01.png",
+              "pet_stage_prime_horse_horse_track_run_02.png",
+              "pet_stage_prime_horse_horse_track_run_03.png",
+              "pet_stage_prime_horse_horse_track_run_04.png",
+              "pet_stage_prime_horse_horse_track_run_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_horse_horse_track_run_00.png",
+              "pet_stage_middle_aged_horse_horse_track_run_01.png",
+              "pet_stage_middle_aged_horse_horse_track_run_02.png",
+              "pet_stage_middle_aged_horse_horse_track_run_03.png",
+              "pet_stage_middle_aged_horse_horse_track_run_04.png",
+              "pet_stage_middle_aged_horse_horse_track_run_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_horse_horse_track_run_00.png",
+              "pet_stage_senior_horse_horse_track_run_01.png",
+              "pet_stage_senior_horse_horse_track_run_02.png",
+              "pet_stage_senior_horse_horse_track_run_03.png",
+              "pet_stage_senior_horse_horse_track_run_04.png",
+              "pet_stage_senior_horse_horse_track_run_05.png"
+            ]
+          }
+        },
+        {
+          "id": "horse_tree_watch",
+          "label": "树边观察",
+          "role": "WATCH",
+          "anchor": [
+            0.76,
+            0.31
+          ],
+          "size": 0.28,
+          "canvas": [
+            320,
+            320
+          ],
+          "baseWeight": 19,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            8500,
+            7500,
+            6500,
+            6000,
+            7000,
+            5500,
+            6500,
+            8000
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_horse_horse_tree_watch_00.heic",
+            "pet_fixed_horse_horse_tree_watch_01.heic",
+            "pet_fixed_horse_horse_tree_watch_02.heic",
+            "pet_fixed_horse_horse_tree_watch_03.heic",
+            "pet_fixed_horse_horse_tree_watch_04.heic",
+            "pet_fixed_horse_horse_tree_watch_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_horse_horse_tree_watch_00.heic",
+            "pet_night_fixed_horse_horse_tree_watch_01.heic",
+            "pet_night_fixed_horse_horse_tree_watch_02.heic",
+            "pet_night_fixed_horse_horse_tree_watch_03.heic",
+            "pet_night_fixed_horse_horse_tree_watch_04.heic",
+            "pet_night_fixed_horse_horse_tree_watch_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_horse_horse_tree_watch.heic",
+          "nightCleanupPatch": "pet_night_stage_background_horse_horse_tree_watch.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_horse_horse_tree_watch_00.png",
+              "pet_stage_young_horse_horse_tree_watch_01.png",
+              "pet_stage_young_horse_horse_tree_watch_02.png",
+              "pet_stage_young_horse_horse_tree_watch_03.png",
+              "pet_stage_young_horse_horse_tree_watch_04.png",
+              "pet_stage_young_horse_horse_tree_watch_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_horse_horse_tree_watch_00.png",
+              "pet_stage_prime_horse_horse_tree_watch_01.png",
+              "pet_stage_prime_horse_horse_tree_watch_02.png",
+              "pet_stage_prime_horse_horse_tree_watch_03.png",
+              "pet_stage_prime_horse_horse_tree_watch_04.png",
+              "pet_stage_prime_horse_horse_tree_watch_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_horse_horse_tree_watch_00.png",
+              "pet_stage_middle_aged_horse_horse_tree_watch_01.png",
+              "pet_stage_middle_aged_horse_horse_tree_watch_02.png",
+              "pet_stage_middle_aged_horse_horse_tree_watch_03.png",
+              "pet_stage_middle_aged_horse_horse_tree_watch_04.png",
+              "pet_stage_middle_aged_horse_horse_tree_watch_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_horse_horse_tree_watch_00.png",
+              "pet_stage_senior_horse_horse_tree_watch_01.png",
+              "pet_stage_senior_horse_horse_tree_watch_02.png",
+              "pet_stage_senior_horse_horse_tree_watch_03.png",
+              "pet_stage_senior_horse_horse_tree_watch_04.png",
+              "pet_stage_senior_horse_horse_tree_watch_05.png"
+            ]
+          }
+        },
+        {
+          "id": "horse_stand_doze",
+          "label": "站立打盹",
+          "role": "REST",
+          "anchor": [
+            0.42,
+            0.48
+          ],
+          "size": 0.29,
+          "canvas": [
+            320,
+            320
+          ],
+          "baseWeight": 36,
+          "restLike": true,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            10000,
+            11000,
+            12000,
+            10000,
+            9000,
+            11000
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_horse_horse_stand_doze_00.heic",
+            "pet_fixed_horse_horse_stand_doze_01.heic",
+            "pet_fixed_horse_horse_stand_doze_02.heic",
+            "pet_fixed_horse_horse_stand_doze_03.heic",
+            "pet_fixed_horse_horse_stand_doze_04.heic",
+            "pet_fixed_horse_horse_stand_doze_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_horse_horse_stand_doze_00.heic",
+            "pet_night_fixed_horse_horse_stand_doze_01.heic",
+            "pet_night_fixed_horse_horse_stand_doze_02.heic",
+            "pet_night_fixed_horse_horse_stand_doze_03.heic",
+            "pet_night_fixed_horse_horse_stand_doze_04.heic",
+            "pet_night_fixed_horse_horse_stand_doze_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_horse_horse_stand_doze.heic",
+          "nightCleanupPatch": "pet_night_stage_background_horse_horse_stand_doze.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_horse_horse_stand_doze_00.png",
+              "pet_stage_young_horse_horse_stand_doze_01.png",
+              "pet_stage_young_horse_horse_stand_doze_02.png",
+              "pet_stage_young_horse_horse_stand_doze_03.png",
+              "pet_stage_young_horse_horse_stand_doze_04.png",
+              "pet_stage_young_horse_horse_stand_doze_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_horse_horse_stand_doze_00.png",
+              "pet_stage_prime_horse_horse_stand_doze_01.png",
+              "pet_stage_prime_horse_horse_stand_doze_02.png",
+              "pet_stage_prime_horse_horse_stand_doze_03.png",
+              "pet_stage_prime_horse_horse_stand_doze_04.png",
+              "pet_stage_prime_horse_horse_stand_doze_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_horse_horse_stand_doze_00.png",
+              "pet_stage_middle_aged_horse_horse_stand_doze_01.png",
+              "pet_stage_middle_aged_horse_horse_stand_doze_02.png",
+              "pet_stage_middle_aged_horse_horse_stand_doze_03.png",
+              "pet_stage_middle_aged_horse_horse_stand_doze_04.png",
+              "pet_stage_middle_aged_horse_horse_stand_doze_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_horse_horse_stand_doze_00.png",
+              "pet_stage_senior_horse_horse_stand_doze_01.png",
+              "pet_stage_senior_horse_horse_stand_doze_02.png",
+              "pet_stage_senior_horse_horse_stand_doze_03.png",
+              "pet_stage_senior_horse_horse_stand_doze_04.png",
+              "pet_stage_senior_horse_horse_stand_doze_05.png"
+            ]
+          }
+        },
+        {
+          "id": "horse_mane_shake_idle",
+          "label": "原地甩鬃",
+          "role": "PLAY",
+          "anchor": [
+            0.64,
+            0.61
+          ],
+          "size": 0.29,
+          "canvas": [
+            320,
+            320
+          ],
+          "baseWeight": 20,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            6000,
+            3000,
+            2200,
+            2500,
+            3500,
+            6500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_horse_horse_mane_shake_idle_00.heic",
+            "pet_fixed_horse_horse_mane_shake_idle_01.heic",
+            "pet_fixed_horse_horse_mane_shake_idle_02.heic",
+            "pet_fixed_horse_horse_mane_shake_idle_03.heic",
+            "pet_fixed_horse_horse_mane_shake_idle_04.heic",
+            "pet_fixed_horse_horse_mane_shake_idle_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_horse_horse_mane_shake_idle_00.heic",
+            "pet_night_fixed_horse_horse_mane_shake_idle_01.heic",
+            "pet_night_fixed_horse_horse_mane_shake_idle_02.heic",
+            "pet_night_fixed_horse_horse_mane_shake_idle_03.heic",
+            "pet_night_fixed_horse_horse_mane_shake_idle_04.heic",
+            "pet_night_fixed_horse_horse_mane_shake_idle_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_horse_horse_mane_shake_idle.heic",
+          "nightCleanupPatch": "pet_night_stage_background_horse_horse_mane_shake_idle.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_horse_horse_mane_shake_idle_00.png",
+              "pet_stage_young_horse_horse_mane_shake_idle_01.png",
+              "pet_stage_young_horse_horse_mane_shake_idle_02.png",
+              "pet_stage_young_horse_horse_mane_shake_idle_03.png",
+              "pet_stage_young_horse_horse_mane_shake_idle_04.png",
+              "pet_stage_young_horse_horse_mane_shake_idle_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_horse_horse_mane_shake_idle_00.png",
+              "pet_stage_prime_horse_horse_mane_shake_idle_01.png",
+              "pet_stage_prime_horse_horse_mane_shake_idle_02.png",
+              "pet_stage_prime_horse_horse_mane_shake_idle_03.png",
+              "pet_stage_prime_horse_horse_mane_shake_idle_04.png",
+              "pet_stage_prime_horse_horse_mane_shake_idle_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_horse_horse_mane_shake_idle_00.png",
+              "pet_stage_middle_aged_horse_horse_mane_shake_idle_01.png",
+              "pet_stage_middle_aged_horse_horse_mane_shake_idle_02.png",
+              "pet_stage_middle_aged_horse_horse_mane_shake_idle_03.png",
+              "pet_stage_middle_aged_horse_horse_mane_shake_idle_04.png",
+              "pet_stage_middle_aged_horse_horse_mane_shake_idle_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_horse_horse_mane_shake_idle_00.png",
+              "pet_stage_senior_horse_horse_mane_shake_idle_01.png",
+              "pet_stage_senior_horse_horse_mane_shake_idle_02.png",
+              "pet_stage_senior_horse_horse_mane_shake_idle_03.png",
+              "pet_stage_senior_horse_horse_mane_shake_idle_04.png",
+              "pet_stage_senior_horse_horse_mane_shake_idle_05.png"
+            ]
+          }
+        },
+        {
+          "id": "horse_ear_alert",
+          "label": "警觉动耳",
+          "role": "WATCH",
+          "anchor": [
+            0.48,
+            0.73
+          ],
+          "size": 0.28,
+          "canvas": [
+            320,
+            320
+          ],
+          "baseWeight": 18,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7500,
+            6000,
+            3000,
+            3500,
+            6000,
+            8000
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_horse_horse_ear_alert_00.heic",
+            "pet_fixed_horse_horse_ear_alert_01.heic",
+            "pet_fixed_horse_horse_ear_alert_02.heic",
+            "pet_fixed_horse_horse_ear_alert_03.heic",
+            "pet_fixed_horse_horse_ear_alert_04.heic",
+            "pet_fixed_horse_horse_ear_alert_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_horse_horse_ear_alert_00.heic",
+            "pet_night_fixed_horse_horse_ear_alert_01.heic",
+            "pet_night_fixed_horse_horse_ear_alert_02.heic",
+            "pet_night_fixed_horse_horse_ear_alert_03.heic",
+            "pet_night_fixed_horse_horse_ear_alert_04.heic",
+            "pet_night_fixed_horse_horse_ear_alert_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_horse_horse_ear_alert.heic",
+          "nightCleanupPatch": "pet_night_stage_background_horse_horse_ear_alert.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_horse_horse_ear_alert_00.png",
+              "pet_stage_young_horse_horse_ear_alert_01.png",
+              "pet_stage_young_horse_horse_ear_alert_02.png",
+              "pet_stage_young_horse_horse_ear_alert_03.png",
+              "pet_stage_young_horse_horse_ear_alert_04.png",
+              "pet_stage_young_horse_horse_ear_alert_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_horse_horse_ear_alert_00.png",
+              "pet_stage_prime_horse_horse_ear_alert_01.png",
+              "pet_stage_prime_horse_horse_ear_alert_02.png",
+              "pet_stage_prime_horse_horse_ear_alert_03.png",
+              "pet_stage_prime_horse_horse_ear_alert_04.png",
+              "pet_stage_prime_horse_horse_ear_alert_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_horse_horse_ear_alert_00.png",
+              "pet_stage_middle_aged_horse_horse_ear_alert_01.png",
+              "pet_stage_middle_aged_horse_horse_ear_alert_02.png",
+              "pet_stage_middle_aged_horse_horse_ear_alert_03.png",
+              "pet_stage_middle_aged_horse_horse_ear_alert_04.png",
+              "pet_stage_middle_aged_horse_horse_ear_alert_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_horse_horse_ear_alert_00.png",
+              "pet_stage_senior_horse_horse_ear_alert_01.png",
+              "pet_stage_senior_horse_horse_ear_alert_02.png",
+              "pet_stage_senior_horse_horse_ear_alert_03.png",
+              "pet_stage_senior_horse_horse_ear_alert_04.png",
+              "pet_stage_senior_horse_horse_ear_alert_05.png"
+            ]
+          }
+        }
+      ]
+    },
+    "panda": {
+      "speciesKey": "panda",
+      "zhName": "熊猫",
+      "enName": "Panda",
+      "homeLabel": "竹影小院",
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "panda_day.heic",
+      "nightRoom": "panda_night.heic",
+      "roamingPrefix": "pet_panda",
+      "slots": [
+        {
+          "id": "panda_platform_rest",
+          "label": "竹台休息",
+          "role": "REST",
+          "anchor": [
+            0.77,
+            0.29
+          ],
+          "size": 0.26,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 42,
+          "restLike": true,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            4
+          ],
+          "frameDurationsMs": [
+            10000,
+            11000,
+            12000,
+            11000,
+            10000,
+            9000,
+            8500,
+            9500,
+            10500
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_panda_panda_platform_rest_00.heic",
+            "pet_fixed_panda_panda_platform_rest_01.heic",
+            "pet_fixed_panda_panda_platform_rest_02.heic",
+            "pet_fixed_panda_panda_platform_rest_03.heic",
+            "pet_fixed_panda_panda_platform_rest_04.heic",
+            "pet_fixed_panda_panda_platform_rest_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_panda_panda_platform_rest_00.heic",
+            "pet_night_fixed_panda_panda_platform_rest_01.heic",
+            "pet_night_fixed_panda_panda_platform_rest_02.heic",
+            "pet_night_fixed_panda_panda_platform_rest_03.heic",
+            "pet_night_fixed_panda_panda_platform_rest_04.heic",
+            "pet_night_fixed_panda_panda_platform_rest_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_panda_panda_platform_rest.heic",
+          "nightCleanupPatch": "pet_night_stage_background_panda_panda_platform_rest.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_panda_panda_platform_rest_00.png",
+              "pet_stage_young_panda_panda_platform_rest_01.png",
+              "pet_stage_young_panda_panda_platform_rest_02.png",
+              "pet_stage_young_panda_panda_platform_rest_03.png",
+              "pet_stage_young_panda_panda_platform_rest_04.png",
+              "pet_stage_young_panda_panda_platform_rest_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_panda_panda_platform_rest_00.png",
+              "pet_stage_prime_panda_panda_platform_rest_01.png",
+              "pet_stage_prime_panda_panda_platform_rest_02.png",
+              "pet_stage_prime_panda_panda_platform_rest_03.png",
+              "pet_stage_prime_panda_panda_platform_rest_04.png",
+              "pet_stage_prime_panda_panda_platform_rest_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_panda_panda_platform_rest_00.png",
+              "pet_stage_middle_aged_panda_panda_platform_rest_01.png",
+              "pet_stage_middle_aged_panda_panda_platform_rest_02.png",
+              "pet_stage_middle_aged_panda_panda_platform_rest_03.png",
+              "pet_stage_middle_aged_panda_panda_platform_rest_04.png",
+              "pet_stage_middle_aged_panda_panda_platform_rest_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_panda_panda_platform_rest_00.png",
+              "pet_stage_senior_panda_panda_platform_rest_01.png",
+              "pet_stage_senior_panda_panda_platform_rest_02.png",
+              "pet_stage_senior_panda_panda_platform_rest_03.png",
+              "pet_stage_senior_panda_panda_platform_rest_04.png",
+              "pet_stage_senior_panda_panda_platform_rest_05.png"
+            ]
+          }
+        },
+        {
+          "id": "panda_bamboo_eat",
+          "label": "竹叶进食",
+          "role": "EAT",
+          "anchor": [
+            0.65,
+            0.45
+          ],
+          "size": 0.26,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 46,
+          "restLike": false,
+          "allowedSatiety": [
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            5000,
+            4500,
+            4000,
+            3500,
+            4000,
+            4500,
+            5000,
+            4500
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_panda_panda_bamboo_eat_00.heic",
+            "pet_fixed_panda_panda_bamboo_eat_01.heic",
+            "pet_fixed_panda_panda_bamboo_eat_02.heic",
+            "pet_fixed_panda_panda_bamboo_eat_03.heic",
+            "pet_fixed_panda_panda_bamboo_eat_04.heic",
+            "pet_fixed_panda_panda_bamboo_eat_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_panda_panda_bamboo_eat_00.heic",
+            "pet_night_fixed_panda_panda_bamboo_eat_01.heic",
+            "pet_night_fixed_panda_panda_bamboo_eat_02.heic",
+            "pet_night_fixed_panda_panda_bamboo_eat_03.heic",
+            "pet_night_fixed_panda_panda_bamboo_eat_04.heic",
+            "pet_night_fixed_panda_panda_bamboo_eat_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_panda_panda_bamboo_eat.heic",
+          "nightCleanupPatch": "pet_night_stage_background_panda_panda_bamboo_eat.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_panda_panda_bamboo_eat_00.png",
+              "pet_stage_young_panda_panda_bamboo_eat_01.png",
+              "pet_stage_young_panda_panda_bamboo_eat_02.png",
+              "pet_stage_young_panda_panda_bamboo_eat_03.png",
+              "pet_stage_young_panda_panda_bamboo_eat_04.png",
+              "pet_stage_young_panda_panda_bamboo_eat_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_panda_panda_bamboo_eat_00.png",
+              "pet_stage_prime_panda_panda_bamboo_eat_01.png",
+              "pet_stage_prime_panda_panda_bamboo_eat_02.png",
+              "pet_stage_prime_panda_panda_bamboo_eat_03.png",
+              "pet_stage_prime_panda_panda_bamboo_eat_04.png",
+              "pet_stage_prime_panda_panda_bamboo_eat_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_panda_panda_bamboo_eat_00.png",
+              "pet_stage_middle_aged_panda_panda_bamboo_eat_01.png",
+              "pet_stage_middle_aged_panda_panda_bamboo_eat_02.png",
+              "pet_stage_middle_aged_panda_panda_bamboo_eat_03.png",
+              "pet_stage_middle_aged_panda_panda_bamboo_eat_04.png",
+              "pet_stage_middle_aged_panda_panda_bamboo_eat_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_panda_panda_bamboo_eat_00.png",
+              "pet_stage_senior_panda_panda_bamboo_eat_01.png",
+              "pet_stage_senior_panda_panda_bamboo_eat_02.png",
+              "pet_stage_senior_panda_panda_bamboo_eat_03.png",
+              "pet_stage_senior_panda_panda_bamboo_eat_04.png",
+              "pet_stage_senior_panda_panda_bamboo_eat_05.png"
+            ]
+          }
+        },
+        {
+          "id": "panda_ball_play",
+          "label": "玩球",
+          "role": "PLAY",
+          "anchor": [
+            0.57,
+            0.61
+          ],
+          "size": 0.27,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 18,
+          "restLike": false,
+          "allowedSatiety": [
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3
+          ],
+          "frameDurationsMs": [
+            3500,
+            3000,
+            2500,
+            2200,
+            2400,
+            2800,
+            3200,
+            3800
+          ],
+          "representative": 3,
+          "infantDayFrames": [
+            "pet_fixed_panda_panda_ball_play_00.heic",
+            "pet_fixed_panda_panda_ball_play_01.heic",
+            "pet_fixed_panda_panda_ball_play_02.heic",
+            "pet_fixed_panda_panda_ball_play_03.heic",
+            "pet_fixed_panda_panda_ball_play_04.heic",
+            "pet_fixed_panda_panda_ball_play_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_panda_panda_ball_play_00.heic",
+            "pet_night_fixed_panda_panda_ball_play_01.heic",
+            "pet_night_fixed_panda_panda_ball_play_02.heic",
+            "pet_night_fixed_panda_panda_ball_play_03.heic",
+            "pet_night_fixed_panda_panda_ball_play_04.heic",
+            "pet_night_fixed_panda_panda_ball_play_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_panda_panda_ball_play.heic",
+          "nightCleanupPatch": "pet_night_stage_background_panda_panda_ball_play.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_panda_panda_ball_play_00.png",
+              "pet_stage_young_panda_panda_ball_play_01.png",
+              "pet_stage_young_panda_panda_ball_play_02.png",
+              "pet_stage_young_panda_panda_ball_play_03.png",
+              "pet_stage_young_panda_panda_ball_play_04.png",
+              "pet_stage_young_panda_panda_ball_play_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_panda_panda_ball_play_00.png",
+              "pet_stage_prime_panda_panda_ball_play_01.png",
+              "pet_stage_prime_panda_panda_ball_play_02.png",
+              "pet_stage_prime_panda_panda_ball_play_03.png",
+              "pet_stage_prime_panda_panda_ball_play_04.png",
+              "pet_stage_prime_panda_panda_ball_play_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_panda_panda_ball_play_00.png",
+              "pet_stage_middle_aged_panda_panda_ball_play_01.png",
+              "pet_stage_middle_aged_panda_panda_ball_play_02.png",
+              "pet_stage_middle_aged_panda_panda_ball_play_03.png",
+              "pet_stage_middle_aged_panda_panda_ball_play_04.png",
+              "pet_stage_middle_aged_panda_panda_ball_play_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_panda_panda_ball_play_00.png",
+              "pet_stage_senior_panda_panda_ball_play_01.png",
+              "pet_stage_senior_panda_panda_ball_play_02.png",
+              "pet_stage_senior_panda_panda_ball_play_03.png",
+              "pet_stage_senior_panda_panda_ball_play_04.png",
+              "pet_stage_senior_panda_panda_ball_play_05.png"
+            ]
+          }
+        },
+        {
+          "id": "panda_fountain_watch",
+          "label": "泉边观察",
+          "role": "WATCH",
+          "anchor": [
+            0.25,
+            0.36
+          ],
+          "size": 0.25,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 20,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            8000,
+            7500,
+            6000,
+            5500,
+            6500,
+            5000,
+            6000,
+            8000
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_panda_panda_fountain_watch_00.heic",
+            "pet_fixed_panda_panda_fountain_watch_01.heic",
+            "pet_fixed_panda_panda_fountain_watch_02.heic",
+            "pet_fixed_panda_panda_fountain_watch_03.heic",
+            "pet_fixed_panda_panda_fountain_watch_04.heic",
+            "pet_fixed_panda_panda_fountain_watch_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_panda_panda_fountain_watch_00.heic",
+            "pet_night_fixed_panda_panda_fountain_watch_01.heic",
+            "pet_night_fixed_panda_panda_fountain_watch_02.heic",
+            "pet_night_fixed_panda_panda_fountain_watch_03.heic",
+            "pet_night_fixed_panda_panda_fountain_watch_04.heic",
+            "pet_night_fixed_panda_panda_fountain_watch_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_panda_panda_fountain_watch.heic",
+          "nightCleanupPatch": "pet_night_stage_background_panda_panda_fountain_watch.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_panda_panda_fountain_watch_00.png",
+              "pet_stage_young_panda_panda_fountain_watch_01.png",
+              "pet_stage_young_panda_panda_fountain_watch_02.png",
+              "pet_stage_young_panda_panda_fountain_watch_03.png",
+              "pet_stage_young_panda_panda_fountain_watch_04.png",
+              "pet_stage_young_panda_panda_fountain_watch_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_panda_panda_fountain_watch_00.png",
+              "pet_stage_prime_panda_panda_fountain_watch_01.png",
+              "pet_stage_prime_panda_panda_fountain_watch_02.png",
+              "pet_stage_prime_panda_panda_fountain_watch_03.png",
+              "pet_stage_prime_panda_panda_fountain_watch_04.png",
+              "pet_stage_prime_panda_panda_fountain_watch_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_panda_panda_fountain_watch_00.png",
+              "pet_stage_middle_aged_panda_panda_fountain_watch_01.png",
+              "pet_stage_middle_aged_panda_panda_fountain_watch_02.png",
+              "pet_stage_middle_aged_panda_panda_fountain_watch_03.png",
+              "pet_stage_middle_aged_panda_panda_fountain_watch_04.png",
+              "pet_stage_middle_aged_panda_panda_fountain_watch_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_panda_panda_fountain_watch_00.png",
+              "pet_stage_senior_panda_panda_fountain_watch_01.png",
+              "pet_stage_senior_panda_panda_fountain_watch_02.png",
+              "pet_stage_senior_panda_panda_fountain_watch_03.png",
+              "pet_stage_senior_panda_panda_fountain_watch_04.png",
+              "pet_stage_senior_panda_panda_fountain_watch_05.png"
+            ]
+          }
+        },
+        {
+          "id": "panda_groom_sit",
+          "label": "坐姿整理毛发",
+          "role": "REST",
+          "anchor": [
+            0.46,
+            0.54
+          ],
+          "size": 0.26,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 24,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            6000,
+            4500,
+            4000,
+            4200,
+            5000,
+            6500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_panda_panda_groom_sit_00.heic",
+            "pet_fixed_panda_panda_groom_sit_01.heic",
+            "pet_fixed_panda_panda_groom_sit_02.heic",
+            "pet_fixed_panda_panda_groom_sit_03.heic",
+            "pet_fixed_panda_panda_groom_sit_04.heic",
+            "pet_fixed_panda_panda_groom_sit_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_panda_panda_groom_sit_00.heic",
+            "pet_night_fixed_panda_panda_groom_sit_01.heic",
+            "pet_night_fixed_panda_panda_groom_sit_02.heic",
+            "pet_night_fixed_panda_panda_groom_sit_03.heic",
+            "pet_night_fixed_panda_panda_groom_sit_04.heic",
+            "pet_night_fixed_panda_panda_groom_sit_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_panda_panda_groom_sit.heic",
+          "nightCleanupPatch": "pet_night_stage_background_panda_panda_groom_sit.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_panda_panda_groom_sit_00.png",
+              "pet_stage_young_panda_panda_groom_sit_01.png",
+              "pet_stage_young_panda_panda_groom_sit_02.png",
+              "pet_stage_young_panda_panda_groom_sit_03.png",
+              "pet_stage_young_panda_panda_groom_sit_04.png",
+              "pet_stage_young_panda_panda_groom_sit_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_panda_panda_groom_sit_00.png",
+              "pet_stage_prime_panda_panda_groom_sit_01.png",
+              "pet_stage_prime_panda_panda_groom_sit_02.png",
+              "pet_stage_prime_panda_panda_groom_sit_03.png",
+              "pet_stage_prime_panda_panda_groom_sit_04.png",
+              "pet_stage_prime_panda_panda_groom_sit_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_panda_panda_groom_sit_00.png",
+              "pet_stage_middle_aged_panda_panda_groom_sit_01.png",
+              "pet_stage_middle_aged_panda_panda_groom_sit_02.png",
+              "pet_stage_middle_aged_panda_panda_groom_sit_03.png",
+              "pet_stage_middle_aged_panda_panda_groom_sit_04.png",
+              "pet_stage_middle_aged_panda_panda_groom_sit_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_panda_panda_groom_sit_00.png",
+              "pet_stage_senior_panda_panda_groom_sit_01.png",
+              "pet_stage_senior_panda_panda_groom_sit_02.png",
+              "pet_stage_senior_panda_panda_groom_sit_03.png",
+              "pet_stage_senior_panda_panda_groom_sit_04.png",
+              "pet_stage_senior_panda_panda_groom_sit_05.png"
+            ]
+          }
+        }
+      ]
+    },
+    "rabbit": {
+      "speciesKey": "rabbit",
+      "zhName": "小兔",
+      "enName": "Rabbit",
+      "homeLabel": "菜园兔洞",
+      "authoredCanvas": [
+        941,
+        1672
+      ],
+      "dayRoom": "rabbit_day.heic",
+      "nightRoom": "rabbit_night.heic",
+      "roamingPrefix": "pet_rabbit",
+      "slots": [
+        {
+          "id": "rabbit_gate_watch",
+          "label": "门边观察",
+          "role": "WATCH",
+          "anchor": [
+            0.5,
+            0.82
+          ],
+          "size": 0.21,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 22,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            8000,
+            7500,
+            6500,
+            6000,
+            7000,
+            5500,
+            6500,
+            8500
+          ],
+          "representative": 2,
+          "infantDayFrames": [
+            "pet_fixed_rabbit_rabbit_gate_watch_00.heic",
+            "pet_fixed_rabbit_rabbit_gate_watch_01.heic",
+            "pet_fixed_rabbit_rabbit_gate_watch_02.heic",
+            "pet_fixed_rabbit_rabbit_gate_watch_03.heic",
+            "pet_fixed_rabbit_rabbit_gate_watch_04.heic",
+            "pet_fixed_rabbit_rabbit_gate_watch_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_rabbit_rabbit_gate_watch_00.heic",
+            "pet_night_fixed_rabbit_rabbit_gate_watch_01.heic",
+            "pet_night_fixed_rabbit_rabbit_gate_watch_02.heic",
+            "pet_night_fixed_rabbit_rabbit_gate_watch_03.heic",
+            "pet_night_fixed_rabbit_rabbit_gate_watch_04.heic",
+            "pet_night_fixed_rabbit_rabbit_gate_watch_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_rabbit_rabbit_gate_watch.heic",
+          "nightCleanupPatch": "pet_night_stage_background_rabbit_rabbit_gate_watch.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_rabbit_rabbit_gate_watch_00.png",
+              "pet_stage_young_rabbit_rabbit_gate_watch_01.png",
+              "pet_stage_young_rabbit_rabbit_gate_watch_02.png",
+              "pet_stage_young_rabbit_rabbit_gate_watch_03.png",
+              "pet_stage_young_rabbit_rabbit_gate_watch_04.png",
+              "pet_stage_young_rabbit_rabbit_gate_watch_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_rabbit_rabbit_gate_watch_00.png",
+              "pet_stage_prime_rabbit_rabbit_gate_watch_01.png",
+              "pet_stage_prime_rabbit_rabbit_gate_watch_02.png",
+              "pet_stage_prime_rabbit_rabbit_gate_watch_03.png",
+              "pet_stage_prime_rabbit_rabbit_gate_watch_04.png",
+              "pet_stage_prime_rabbit_rabbit_gate_watch_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_rabbit_rabbit_gate_watch_00.png",
+              "pet_stage_middle_aged_rabbit_rabbit_gate_watch_01.png",
+              "pet_stage_middle_aged_rabbit_rabbit_gate_watch_02.png",
+              "pet_stage_middle_aged_rabbit_rabbit_gate_watch_03.png",
+              "pet_stage_middle_aged_rabbit_rabbit_gate_watch_04.png",
+              "pet_stage_middle_aged_rabbit_rabbit_gate_watch_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_rabbit_rabbit_gate_watch_00.png",
+              "pet_stage_senior_rabbit_rabbit_gate_watch_01.png",
+              "pet_stage_senior_rabbit_rabbit_gate_watch_02.png",
+              "pet_stage_senior_rabbit_rabbit_gate_watch_03.png",
+              "pet_stage_senior_rabbit_rabbit_gate_watch_04.png",
+              "pet_stage_senior_rabbit_rabbit_gate_watch_05.png"
+            ]
+          }
+        },
+        {
+          "id": "rabbit_alert_sit",
+          "label": "坐姿警觉",
+          "role": "WATCH",
+          "anchor": [
+            0.43,
+            0.51
+          ],
+          "size": 0.21,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 22,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7500,
+            6500,
+            4000,
+            4500,
+            6000,
+            8000
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_rabbit_rabbit_alert_sit_00.heic",
+            "pet_fixed_rabbit_rabbit_alert_sit_01.heic",
+            "pet_fixed_rabbit_rabbit_alert_sit_02.heic",
+            "pet_fixed_rabbit_rabbit_alert_sit_03.heic",
+            "pet_fixed_rabbit_rabbit_alert_sit_04.heic",
+            "pet_fixed_rabbit_rabbit_alert_sit_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_rabbit_rabbit_alert_sit_00.heic",
+            "pet_night_fixed_rabbit_rabbit_alert_sit_01.heic",
+            "pet_night_fixed_rabbit_rabbit_alert_sit_02.heic",
+            "pet_night_fixed_rabbit_rabbit_alert_sit_03.heic",
+            "pet_night_fixed_rabbit_rabbit_alert_sit_04.heic",
+            "pet_night_fixed_rabbit_rabbit_alert_sit_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_rabbit_rabbit_alert_sit.heic",
+          "nightCleanupPatch": "pet_night_stage_background_rabbit_rabbit_alert_sit.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_rabbit_rabbit_alert_sit_00.png",
+              "pet_stage_young_rabbit_rabbit_alert_sit_01.png",
+              "pet_stage_young_rabbit_rabbit_alert_sit_02.png",
+              "pet_stage_young_rabbit_rabbit_alert_sit_03.png",
+              "pet_stage_young_rabbit_rabbit_alert_sit_04.png",
+              "pet_stage_young_rabbit_rabbit_alert_sit_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_rabbit_rabbit_alert_sit_00.png",
+              "pet_stage_prime_rabbit_rabbit_alert_sit_01.png",
+              "pet_stage_prime_rabbit_rabbit_alert_sit_02.png",
+              "pet_stage_prime_rabbit_rabbit_alert_sit_03.png",
+              "pet_stage_prime_rabbit_rabbit_alert_sit_04.png",
+              "pet_stage_prime_rabbit_rabbit_alert_sit_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_rabbit_rabbit_alert_sit_00.png",
+              "pet_stage_middle_aged_rabbit_rabbit_alert_sit_01.png",
+              "pet_stage_middle_aged_rabbit_rabbit_alert_sit_02.png",
+              "pet_stage_middle_aged_rabbit_rabbit_alert_sit_03.png",
+              "pet_stage_middle_aged_rabbit_rabbit_alert_sit_04.png",
+              "pet_stage_middle_aged_rabbit_rabbit_alert_sit_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_rabbit_rabbit_alert_sit_00.png",
+              "pet_stage_senior_rabbit_rabbit_alert_sit_01.png",
+              "pet_stage_senior_rabbit_rabbit_alert_sit_02.png",
+              "pet_stage_senior_rabbit_rabbit_alert_sit_03.png",
+              "pet_stage_senior_rabbit_rabbit_alert_sit_04.png",
+              "pet_stage_senior_rabbit_rabbit_alert_sit_05.png"
+            ]
+          }
+        },
+        {
+          "id": "rabbit_ear_twitch_idle",
+          "label": "耳朵轻动",
+          "role": "WATCH",
+          "anchor": [
+            0.64,
+            0.63
+          ],
+          "size": 0.21,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 18,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            7000,
+            5000,
+            2500,
+            2800,
+            5000,
+            7500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_rabbit_rabbit_ear_twitch_idle_00.heic",
+            "pet_fixed_rabbit_rabbit_ear_twitch_idle_01.heic",
+            "pet_fixed_rabbit_rabbit_ear_twitch_idle_02.heic",
+            "pet_fixed_rabbit_rabbit_ear_twitch_idle_03.heic",
+            "pet_fixed_rabbit_rabbit_ear_twitch_idle_04.heic",
+            "pet_fixed_rabbit_rabbit_ear_twitch_idle_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_rabbit_rabbit_ear_twitch_idle_00.heic",
+            "pet_night_fixed_rabbit_rabbit_ear_twitch_idle_01.heic",
+            "pet_night_fixed_rabbit_rabbit_ear_twitch_idle_02.heic",
+            "pet_night_fixed_rabbit_rabbit_ear_twitch_idle_03.heic",
+            "pet_night_fixed_rabbit_rabbit_ear_twitch_idle_04.heic",
+            "pet_night_fixed_rabbit_rabbit_ear_twitch_idle_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_rabbit_rabbit_ear_twitch_idle.heic",
+          "nightCleanupPatch": "pet_night_stage_background_rabbit_rabbit_ear_twitch_idle.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_rabbit_rabbit_ear_twitch_idle_00.png",
+              "pet_stage_young_rabbit_rabbit_ear_twitch_idle_01.png",
+              "pet_stage_young_rabbit_rabbit_ear_twitch_idle_02.png",
+              "pet_stage_young_rabbit_rabbit_ear_twitch_idle_03.png",
+              "pet_stage_young_rabbit_rabbit_ear_twitch_idle_04.png",
+              "pet_stage_young_rabbit_rabbit_ear_twitch_idle_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_rabbit_rabbit_ear_twitch_idle_00.png",
+              "pet_stage_prime_rabbit_rabbit_ear_twitch_idle_01.png",
+              "pet_stage_prime_rabbit_rabbit_ear_twitch_idle_02.png",
+              "pet_stage_prime_rabbit_rabbit_ear_twitch_idle_03.png",
+              "pet_stage_prime_rabbit_rabbit_ear_twitch_idle_04.png",
+              "pet_stage_prime_rabbit_rabbit_ear_twitch_idle_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_rabbit_rabbit_ear_twitch_idle_00.png",
+              "pet_stage_middle_aged_rabbit_rabbit_ear_twitch_idle_01.png",
+              "pet_stage_middle_aged_rabbit_rabbit_ear_twitch_idle_02.png",
+              "pet_stage_middle_aged_rabbit_rabbit_ear_twitch_idle_03.png",
+              "pet_stage_middle_aged_rabbit_rabbit_ear_twitch_idle_04.png",
+              "pet_stage_middle_aged_rabbit_rabbit_ear_twitch_idle_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_rabbit_rabbit_ear_twitch_idle_00.png",
+              "pet_stage_senior_rabbit_rabbit_ear_twitch_idle_01.png",
+              "pet_stage_senior_rabbit_rabbit_ear_twitch_idle_02.png",
+              "pet_stage_senior_rabbit_rabbit_ear_twitch_idle_03.png",
+              "pet_stage_senior_rabbit_rabbit_ear_twitch_idle_04.png",
+              "pet_stage_senior_rabbit_rabbit_ear_twitch_idle_05.png"
+            ]
+          }
+        },
+        {
+          "id": "rabbit_face_wash",
+          "label": "洗脸",
+          "role": "REST",
+          "anchor": [
+            0.36,
+            0.7
+          ],
+          "size": 0.21,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 20,
+          "restLike": false,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            5000,
+            4200,
+            3500,
+            3800,
+            4500,
+            5500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_rabbit_rabbit_face_wash_00.heic",
+            "pet_fixed_rabbit_rabbit_face_wash_01.heic",
+            "pet_fixed_rabbit_rabbit_face_wash_02.heic",
+            "pet_fixed_rabbit_rabbit_face_wash_03.heic",
+            "pet_fixed_rabbit_rabbit_face_wash_04.heic",
+            "pet_fixed_rabbit_rabbit_face_wash_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_rabbit_rabbit_face_wash_00.heic",
+            "pet_night_fixed_rabbit_rabbit_face_wash_01.heic",
+            "pet_night_fixed_rabbit_rabbit_face_wash_02.heic",
+            "pet_night_fixed_rabbit_rabbit_face_wash_03.heic",
+            "pet_night_fixed_rabbit_rabbit_face_wash_04.heic",
+            "pet_night_fixed_rabbit_rabbit_face_wash_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_rabbit_rabbit_face_wash.heic",
+          "nightCleanupPatch": "pet_night_stage_background_rabbit_rabbit_face_wash.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_rabbit_rabbit_face_wash_00.png",
+              "pet_stage_young_rabbit_rabbit_face_wash_01.png",
+              "pet_stage_young_rabbit_rabbit_face_wash_02.png",
+              "pet_stage_young_rabbit_rabbit_face_wash_03.png",
+              "pet_stage_young_rabbit_rabbit_face_wash_04.png",
+              "pet_stage_young_rabbit_rabbit_face_wash_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_rabbit_rabbit_face_wash_00.png",
+              "pet_stage_prime_rabbit_rabbit_face_wash_01.png",
+              "pet_stage_prime_rabbit_rabbit_face_wash_02.png",
+              "pet_stage_prime_rabbit_rabbit_face_wash_03.png",
+              "pet_stage_prime_rabbit_rabbit_face_wash_04.png",
+              "pet_stage_prime_rabbit_rabbit_face_wash_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_rabbit_rabbit_face_wash_00.png",
+              "pet_stage_middle_aged_rabbit_rabbit_face_wash_01.png",
+              "pet_stage_middle_aged_rabbit_rabbit_face_wash_02.png",
+              "pet_stage_middle_aged_rabbit_rabbit_face_wash_03.png",
+              "pet_stage_middle_aged_rabbit_rabbit_face_wash_04.png",
+              "pet_stage_middle_aged_rabbit_rabbit_face_wash_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_rabbit_rabbit_face_wash_00.png",
+              "pet_stage_senior_rabbit_rabbit_face_wash_01.png",
+              "pet_stage_senior_rabbit_rabbit_face_wash_02.png",
+              "pet_stage_senior_rabbit_rabbit_face_wash_03.png",
+              "pet_stage_senior_rabbit_rabbit_face_wash_04.png",
+              "pet_stage_senior_rabbit_rabbit_face_wash_05.png"
+            ]
+          }
+        },
+        {
+          "id": "rabbit_curl_rest",
+          "label": "蜷卧休息",
+          "role": "REST",
+          "anchor": [
+            0.45,
+            0.6
+          ],
+          "size": 0.22,
+          "canvas": [
+            256,
+            256
+          ],
+          "baseWeight": 36,
+          "restLike": true,
+          "allowedSatiety": [
+            "WEAK",
+            "HUNGRY",
+            "NORMAL",
+            "FULL"
+          ],
+          "allowedPhases": [
+            "DAWN",
+            "DAY",
+            "DUSK",
+            "NIGHT",
+            "LATE_NIGHT"
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationsMs": [
+            10000,
+            11000,
+            12000,
+            11000,
+            9500,
+            10500
+          ],
+          "representative": 0,
+          "infantDayFrames": [
+            "pet_fixed_rabbit_rabbit_curl_rest_00.heic",
+            "pet_fixed_rabbit_rabbit_curl_rest_01.heic",
+            "pet_fixed_rabbit_rabbit_curl_rest_02.heic",
+            "pet_fixed_rabbit_rabbit_curl_rest_03.heic",
+            "pet_fixed_rabbit_rabbit_curl_rest_04.heic",
+            "pet_fixed_rabbit_rabbit_curl_rest_05.heic"
+          ],
+          "infantNightFrames": [
+            "pet_night_fixed_rabbit_rabbit_curl_rest_00.heic",
+            "pet_night_fixed_rabbit_rabbit_curl_rest_01.heic",
+            "pet_night_fixed_rabbit_rabbit_curl_rest_02.heic",
+            "pet_night_fixed_rabbit_rabbit_curl_rest_03.heic",
+            "pet_night_fixed_rabbit_rabbit_curl_rest_04.heic",
+            "pet_night_fixed_rabbit_rabbit_curl_rest_05.heic"
+          ],
+          "dayCleanupPatch": "pet_stage_background_rabbit_rabbit_curl_rest.heic",
+          "nightCleanupPatch": "pet_night_stage_background_rabbit_rabbit_curl_rest.heic",
+          "stageFrames": {
+            "YOUNG": [
+              "pet_stage_young_rabbit_rabbit_curl_rest_00.png",
+              "pet_stage_young_rabbit_rabbit_curl_rest_01.png",
+              "pet_stage_young_rabbit_rabbit_curl_rest_02.png",
+              "pet_stage_young_rabbit_rabbit_curl_rest_03.png",
+              "pet_stage_young_rabbit_rabbit_curl_rest_04.png",
+              "pet_stage_young_rabbit_rabbit_curl_rest_05.png"
+            ],
+            "PRIME": [
+              "pet_stage_prime_rabbit_rabbit_curl_rest_00.png",
+              "pet_stage_prime_rabbit_rabbit_curl_rest_01.png",
+              "pet_stage_prime_rabbit_rabbit_curl_rest_02.png",
+              "pet_stage_prime_rabbit_rabbit_curl_rest_03.png",
+              "pet_stage_prime_rabbit_rabbit_curl_rest_04.png",
+              "pet_stage_prime_rabbit_rabbit_curl_rest_05.png"
+            ],
+            "MIDDLE_AGED": [
+              "pet_stage_middle_aged_rabbit_rabbit_curl_rest_00.png",
+              "pet_stage_middle_aged_rabbit_rabbit_curl_rest_01.png",
+              "pet_stage_middle_aged_rabbit_rabbit_curl_rest_02.png",
+              "pet_stage_middle_aged_rabbit_rabbit_curl_rest_03.png",
+              "pet_stage_middle_aged_rabbit_rabbit_curl_rest_04.png",
+              "pet_stage_middle_aged_rabbit_rabbit_curl_rest_05.png"
+            ],
+            "SENIOR": [
+              "pet_stage_senior_rabbit_rabbit_curl_rest_00.png",
+              "pet_stage_senior_rabbit_rabbit_curl_rest_01.png",
+              "pet_stage_senior_rabbit_rabbit_curl_rest_02.png",
+              "pet_stage_senior_rabbit_rabbit_curl_rest_03.png",
+              "pet_stage_senior_rabbit_rabbit_curl_rest_04.png",
+              "pet_stage_senior_rabbit_rabbit_curl_rest_05.png"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
